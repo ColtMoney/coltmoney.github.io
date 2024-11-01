@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+	<link rel="stylesheet" href="assets/air-datepicker/datepicker.css">
+	
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/greed.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body class="pt_90">
+
+<header class="header listing_header header_room">
+	<div class="container">
+		<div class="left">
+			<a href="" class="header_logo">
+				<img src="img/header_logo.svg" alt="">
+			</a>
+			<div class="header_listing_step">List a Room</div>
+		</div>
+	</div>
+</header>
+
+<section class="s_new_room_v">
+    <div class="new_room_v_row dark">
+        <div class="container">
+            <label class="label_w_question">Type of Living
+                <div class="question_icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.99957 0.277771C4.63064 0.277771 0.277344 4.63107 0.277344 9.99999C0.277344 15.3689 4.63064 19.7222 9.99957 19.7222C15.3685 19.7222 19.7218 15.3689 19.7218 9.99999C19.7218 4.63107 15.3685 0.277771 9.99957 0.277771ZM9.99957 18.0729C5.5421 18.0729 1.92665 14.4575 1.92665 9.99999C1.92665 5.54253 5.5421 1.92708 9.99957 1.92708C14.457 1.92708 18.0725 5.54253 18.0725 9.99999C18.0725 14.4575 14.457 18.0729 9.99957 18.0729Z" fill="#13B772"/>
+<path d="M12.4214 5.76173C11.7704 5.19098 10.911 4.87848 9.99957 4.87848C9.08811 4.87848 8.22873 5.19315 7.57769 5.76173C6.90061 6.35417 6.52734 7.15061 6.52734 8.00348V8.16841C6.52734 8.2639 6.60547 8.34202 6.70095 8.34202H7.74262C7.83811 8.34202 7.91623 8.2639 7.91623 8.16841V8.00348C7.91623 7.04645 8.85156 6.26737 9.99957 6.26737C11.1476 6.26737 12.0829 7.04645 12.0829 8.00348C12.0829 8.67839 11.6055 9.29688 10.8655 9.58117C10.4054 9.75695 10.0148 10.0651 9.73481 10.4688C9.45052 10.8811 9.30295 11.3759 9.30295 11.8772V12.3438C9.30295 12.4392 9.38108 12.5174 9.47656 12.5174H10.5182C10.6137 12.5174 10.6918 12.4392 10.6918 12.3438V11.8511C10.693 11.6405 10.7575 11.435 10.8772 11.2616C10.9968 11.0882 11.1659 10.9548 11.3624 10.8789C12.6428 10.3863 13.4696 9.25782 13.4696 8.00348C13.4718 7.15061 13.0985 6.35417 12.4214 5.76173ZM9.13151 14.7743C9.13151 15.0045 9.22297 15.2253 9.38576 15.3881C9.54855 15.5509 9.76934 15.6424 9.99957 15.6424C10.2298 15.6424 10.4506 15.5509 10.6134 15.3881C10.7762 15.2253 10.8676 15.0045 10.8676 14.7743C10.8676 14.5441 10.7762 14.3233 10.6134 14.1605C10.4506 13.9977 10.2298 13.9063 9.99957 13.9063C9.76934 13.9063 9.54855 13.9977 9.38576 14.1605C9.22297 14.3233 9.13151 14.5441 9.13151 14.7743Z" fill="#13B772"/>
+</svg>
+
+                    <div class="question_icon_tooltip">This listing is for one room. Select the type of living that
+                        best describes the room you are listing.
+                    </div>
+                </div>
+            </label>
+            <p>Select one per listing</p>
+            <div class="input_items_wrpr">
+                <label class="radio_btn_container radio_btn_container_2">
+                    <input type="radio" name="listing" id="">
+                    <span class="radio_check"></span> Independent Living
+                </label>
+                <label class="radio_btn_container radio_btn_container_2">
+                    <input type="radio" name="listing" id="">
+                    <span class="radio_check"></span> Assisted Living Facility
+                </label>
+                <label class="radio_btn_container radio_btn_container_2">
+                    <input type="radio" name="listing" id="">
+                    <span class="radio_check"></span> Residential Care Home
+                </label>
+                <label class="radio_btn_container radio_btn_container_2">
+                    <input type="radio" name="listing" id="">
+                    <span class="radio_check"></span> Nursing Home
+                </label>
+                <label class="radio_btn_container radio_btn_container_2">
+                    <input type="radio" name="listing" id="">
+                    <span class="radio_check"></span> Memory Care
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="new_room_v_row">
+        <div class="container">
+            <label class="label_w_question">Room Type and Size
+                <div class="question_icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.99957 0.277771C4.63064 0.277771 0.277344 4.63107 0.277344 9.99999C0.277344 15.3689 4.63064 19.7222 9.99957 19.7222C15.3685 19.7222 19.7218 15.3689 19.7218 9.99999C19.7218 4.63107 15.3685 0.277771 9.99957 0.277771ZM9.99957 18.0729C5.5421 18.0729 1.92665 14.4575 1.92665 9.99999C1.92665 5.54253 5.5421 1.92708 9.99957 1.92708C14.457 1.92708 18.0725 5.54253 18.0725 9.99999C18.0725 14.4575 14.457 18.0729 9.99957 18.0729Z" fill="#13B772"/>
+<path d="M12.4214 5.76173C11.7704 5.19098 10.911 4.87848 9.99957 4.87848C9.08811 4.87848 8.22873 5.19315 7.57769 5.76173C6.90061 6.35417 6.52734 7.15061 6.52734 8.00348V8.16841C6.52734 8.2639 6.60547 8.34202 6.70095 8.34202H7.74262C7.83811 8.34202 7.91623 8.2639 7.91623 8.16841V8.00348C7.91623 7.04645 8.85156 6.26737 9.99957 6.26737C11.1476 6.26737 12.0829 7.04645 12.0829 8.00348C12.0829 8.67839 11.6055 9.29688 10.8655 9.58117C10.4054 9.75695 10.0148 10.0651 9.73481 10.4688C9.45052 10.8811 9.30295 11.3759 9.30295 11.8772V12.3438C9.30295 12.4392 9.38108 12.5174 9.47656 12.5174H10.5182C10.6137 12.5174 10.6918 12.4392 10.6918 12.3438V11.8511C10.693 11.6405 10.7575 11.435 10.8772 11.2616C10.9968 11.0882 11.1659 10.9548 11.3624 10.8789C12.6428 10.3863 13.4696 9.25782 13.4696 8.00348C13.4718 7.15061 13.0985 6.35417 12.4214 5.76173ZM9.13151 14.7743C9.13151 15.0045 9.22297 15.2253 9.38576 15.3881C9.54855 15.5509 9.76934 15.6424 9.99957 15.6424C10.2298 15.6424 10.4506 15.5509 10.6134 15.3881C10.7762 15.2253 10.8676 15.0045 10.8676 14.7743C10.8676 14.5441 10.7762 14.3233 10.6134 14.1605C10.4506 13.9977 10.2298 13.9063 9.99957 13.9063C9.76934 13.9063 9.54855 13.9977 9.38576 14.1605C9.22297 14.3233 9.13151 14.5441 9.13151 14.7743Z" fill="#13B772"/>
+</svg>
+
+                    <div class="question_icon_tooltip">Please select the room type and approximate square footage
+                        for the room you are listing.
+                    </div>
+                </div>
+            </label>
+            <p>Select one per listing</p>
+            <div class="input_items_wrpr room_size">
+                <label class="radio_btn_container radio_btn_container_2 with_text_input">
+                    <input type="radio" name="type_and_size" id="">
+                    <span class="radio_check"></span> <span class="left_text">Shared Room</span>
+                    <div class="input_w_after_symbols">
+                        <input type="text" name="" id="" class="checkbox_text_input" disabled>
+                        <span class="input_after_symbols disable">sq ft</span>
+                    </div>
+                </label>
+                <label class="radio_btn_container radio_btn_container_2 with_text_input">
+                    <input type="radio" name="type_and_size" id="">
+                    <span class="radio_check"></span> <span class="left_text">Private Room</span>
+                    <div class="input_w_after_symbols">
+                        <input type="text" name="" id="" class="checkbox_text_input" disabled>
+                        <span class="input_after_symbols disable">sq ft</span>
+                    </div>
+                </label>
+                <label class="radio_btn_container radio_btn_container_2 with_text_input">
+                    <input type="radio" name="type_and_size" id="">
+                    <span class="radio_check"></span> <span class="left_text">Studio</span>
+                    <div class="input_w_after_symbols">
+                        <input type="text" name="" id="" class="checkbox_text_input" disabled>
+                        <span class="input_after_symbols disable">sq ft</span>
+                    </div>
+                </label>
+                <label class="radio_btn_container radio_btn_container_2 with_text_input">
+                    <input type="radio" name="type_and_size" id="">
+                    <span class="radio_check"></span> <span class="left_text">1 Bedroom Apt</span>
+                    <div class="input_w_after_symbols">
+                        <input type="text" name="" id="" class="checkbox_text_input" disabled>
+                        <span class="input_after_symbols disable">sq ft</span>
+                    </div>
+                </label>
+                <label class="radio_btn_container radio_btn_container_2 with_text_input">
+                    <input type="radio" name="type_and_size" id="">
+                    <span class="radio_check"></span> <span class="left_text">2 Bedroom Apt</span>
+                    <div class="input_w_after_symbols">
+                        <input type="text" name="" id="" class="checkbox_text_input" disabled>
+                        <span class="input_after_symbols disable">sq ft</span>
+                    </div>
+                </label>
+                <label class="radio_btn_container radio_btn_container_2 with_text_input">
+                    <input type="radio" name="type_and_size" id="">
+                    <span class="radio_check"></span> <span class="left_text">3 Bedroom Apt</span>
+                    <div class="input_w_after_symbols">
+                        <input type="text" name="" id="" class="checkbox_text_input" disabled>
+                        <span class="input_after_symbols disable">sq ft</span>
+                    </div>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="new_room_v_row dark">
+        <div class="container">
+            <div class="form-group mb_10">
+                <label>Availability</label>
+            </div>
+            <div class="fg_cols_wrpr">
+                <div class="fg_col_100">
+                    <div>
+                        <label class="radio_btn_container radio_btn_container_2 datepicker_checkbox_item">
+                            <input type="radio" name="date_avaliable" id="" checked>
+                            <span class="radio_check"></span> Available now
+                        </label>
+                    </div>
+                </div>
+                <div class="fg_col_100">
+                    <div class="form-group">
+                        <label class="radio_btn_container radio_btn_container_2 datepicker_checkbox_item">
+                            <input type="radio" name="date_avaliable" id="" value="open_datapicker">
+                            <span class="radio_check"></span> Chose avaliable date
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <div class="datepickers_block single_datepicker mb_0 mt_0 datepicker_hide">
+                <div class="daterangepicker_parent"></div>
+            </div>
+        </div>
+    </div>
+    <div class="new_room_v_row payment_sources">
+        <div class="container">
+            <label class="label_w_question">Payment Sources and Base Price
+                <div class="question_icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.99957 0.277771C4.63064 0.277771 0.277344 4.63107 0.277344 9.99999C0.277344 15.3689 4.63064 19.7222 9.99957 19.7222C15.3685 19.7222 19.7218 15.3689 19.7218 9.99999C19.7218 4.63107 15.3685 0.277771 9.99957 0.277771ZM9.99957 18.0729C5.5421 18.0729 1.92665 14.4575 1.92665 9.99999C1.92665 5.54253 5.5421 1.92708 9.99957 1.92708C14.457 1.92708 18.0725 5.54253 18.0725 9.99999C18.0725 14.4575 14.457 18.0729 9.99957 18.0729Z" fill="#13B772"/>
+<path d="M12.4214 5.76173C11.7704 5.19098 10.911 4.87848 9.99957 4.87848C9.08811 4.87848 8.22873 5.19315 7.57769 5.76173C6.90061 6.35417 6.52734 7.15061 6.52734 8.00348V8.16841C6.52734 8.2639 6.60547 8.34202 6.70095 8.34202H7.74262C7.83811 8.34202 7.91623 8.2639 7.91623 8.16841V8.00348C7.91623 7.04645 8.85156 6.26737 9.99957 6.26737C11.1476 6.26737 12.0829 7.04645 12.0829 8.00348C12.0829 8.67839 11.6055 9.29688 10.8655 9.58117C10.4054 9.75695 10.0148 10.0651 9.73481 10.4688C9.45052 10.8811 9.30295 11.3759 9.30295 11.8772V12.3438C9.30295 12.4392 9.38108 12.5174 9.47656 12.5174H10.5182C10.6137 12.5174 10.6918 12.4392 10.6918 12.3438V11.8511C10.693 11.6405 10.7575 11.435 10.8772 11.2616C10.9968 11.0882 11.1659 10.9548 11.3624 10.8789C12.6428 10.3863 13.4696 9.25782 13.4696 8.00348C13.4718 7.15061 13.0985 6.35417 12.4214 5.76173ZM9.13151 14.7743C9.13151 15.0045 9.22297 15.2253 9.38576 15.3881C9.54855 15.5509 9.76934 15.6424 9.99957 15.6424C10.2298 15.6424 10.4506 15.5509 10.6134 15.3881C10.7762 15.2253 10.8676 15.0045 10.8676 14.7743C10.8676 14.5441 10.7762 14.3233 10.6134 14.1605C10.4506 13.9977 10.2298 13.9063 9.99957 13.9063C9.76934 13.9063 9.54855 13.9977 9.38576 14.1605C9.22297 14.3233 9.13151 14.5441 9.13151 14.7743Z" fill="#13B772"/>
+</svg>
+
+                    <div class="question_icon_tooltip">Please enter the base price for each individual payment
+                        source. The base price should be a minimal starting price based on an individual with
+                        minimal care needs. The final price will be determined case by case with you and the
+                        individual resident. When residents search for a room, they can only select ONE payment
+                        source. Residents will not see all three base prices. Only the ONE that applies to them.
+
+                    </div>
+                </div>
+            </label>
+            <p>Select all that apply and enter base monthly rent for each</p>
+            <div class="input_items_wrpr payment_rent">
+                <label class="checkbox_item with_text_input with_icon_text_input">
+                    <input type="checkbox" name="" id="" class="private_pay_checkbox">
+                    <span class="checkbox_check"></span>
+                    <span class="left_text">
+                        <div class="icon"><img src="img/icon_private_pay.svg" alt=""></div> Private Pay
+                    </span>
+                    <div class="right_text">
+                        Base Price
+                        <div class="input_w_before_symbols">
+                            <input type="text" name="" id="" class="checkbox_text_input private_pay_checkbox_text_input" disabled>
+                            <span class="input_before_symbols">$</span>
+                        </div>
+                        /month
+                    </div>
+                </label>
+                <label class="checkbox_item with_text_input with_icon_text_input">
+                    <input type="checkbox" name="" id="" class="insurance_checkbox">
+                    <span class="checkbox_check"></span>
+                    <span class="left_text">
+                        <div class="icon"><img src="img/icon_insurance.svg" alt=""></div> Insurance
+                    </span>
+                    <div class="right_text">
+                        Base Price
+                        <div class="input_w_before_symbols">
+                            <input type="text" name="" id="" class="checkbox_text_input insurance_checkbox_text_input" disabled>
+                            <span class="input_before_symbols">$</span>
+                        </div>
+                        /month
+                    </div>
+                </label>
+                <label class="checkbox_item with_text_input with_icon_text_input">
+                    <input type="checkbox" name="" id="" class="medicaid_checkbox">
+                    <span class="checkbox_check"></span>
+                    <span class="left_text">
+                        <div class="icon"><img src="img/icon_medicaid.svg" alt=""></div> Medicaid
+                    </span>
+                    <div class="right_text">
+                        Base Price
+                        <div class="input_w_before_symbols">
+                            <input type="text" name="" id="" class="checkbox_text_input medicaid_checkbox_text_input" disabled>
+                            <span class="input_before_symbols">$</span>
+                        </div>
+                        /month
+                    </div>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="new_room_v_row dark included_in_base_price">
+        <div class="container">
+            <label class="label_w_question">Included in Base Price
+                <div class="question_icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.99957 0.277771C4.63064 0.277771 0.277344 4.63107 0.277344 9.99999C0.277344 15.3689 4.63064 19.7222 9.99957 19.7222C15.3685 19.7222 19.7218 15.3689 19.7218 9.99999C19.7218 4.63107 15.3685 0.277771 9.99957 0.277771ZM9.99957 18.0729C5.5421 18.0729 1.92665 14.4575 1.92665 9.99999C1.92665 5.54253 5.5421 1.92708 9.99957 1.92708C14.457 1.92708 18.0725 5.54253 18.0725 9.99999C18.0725 14.4575 14.457 18.0729 9.99957 18.0729Z" fill="#13B772"/>
+<path d="M12.4214 5.76173C11.7704 5.19098 10.911 4.87848 9.99957 4.87848C9.08811 4.87848 8.22873 5.19315 7.57769 5.76173C6.90061 6.35417 6.52734 7.15061 6.52734 8.00348V8.16841C6.52734 8.2639 6.60547 8.34202 6.70095 8.34202H7.74262C7.83811 8.34202 7.91623 8.2639 7.91623 8.16841V8.00348C7.91623 7.04645 8.85156 6.26737 9.99957 6.26737C11.1476 6.26737 12.0829 7.04645 12.0829 8.00348C12.0829 8.67839 11.6055 9.29688 10.8655 9.58117C10.4054 9.75695 10.0148 10.0651 9.73481 10.4688C9.45052 10.8811 9.30295 11.3759 9.30295 11.8772V12.3438C9.30295 12.4392 9.38108 12.5174 9.47656 12.5174H10.5182C10.6137 12.5174 10.6918 12.4392 10.6918 12.3438V11.8511C10.693 11.6405 10.7575 11.435 10.8772 11.2616C10.9968 11.0882 11.1659 10.9548 11.3624 10.8789C12.6428 10.3863 13.4696 9.25782 13.4696 8.00348C13.4718 7.15061 13.0985 6.35417 12.4214 5.76173ZM9.13151 14.7743C9.13151 15.0045 9.22297 15.2253 9.38576 15.3881C9.54855 15.5509 9.76934 15.6424 9.99957 15.6424C10.2298 15.6424 10.4506 15.5509 10.6134 15.3881C10.7762 15.2253 10.8676 15.0045 10.8676 14.7743C10.8676 14.5441 10.7762 14.3233 10.6134 14.1605C10.4506 13.9977 10.2298 13.9063 9.99957 13.9063C9.76934 13.9063 9.54855 13.9977 9.38576 14.1605C9.22297 14.3233 9.13151 14.5441 9.13151 14.7743Z" fill="#13B772"/>
+</svg>
+
+                    <div class="question_icon_tooltip">Please select all meals and services that are included in the
+                        base monthly price for each individual payment source. If you can't find what you are
+                        looking for in the list, you may add up to 10 additional services by typing them in "Other".
+                    </div>
+                </div>
+            </label>
+            <p>Select all that apply for each payment source</p>
+            <div class="servinc_wrpr mb_10">
+                <div class="servinc_br_row header_row">
+                    <div class="col">
+                        <div class="icon">
+                            <img src="img/icon_private_pay.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="icon">
+                            <img src="img/icon_insurance.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="icon">
+                            <img src="img/icon_medicaid.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <label>Meals</label>
+                    </div>
+                </div>
+                <div class="servinc_br_row servinc_br_row_2 uncheck_radio">
+                    <div class="col">
+                        <label class="radio_btn_container radio_btn_container_2">
+                            <input type="radio" name="meals_row_1" id="">
+                            <span class="radio_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="radio_btn_container radio_btn_container_2">
+                            <input type="radio" name="meals_row_2" id="">
+                            <span class="radio_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="radio_btn_container radio_btn_container_2">
+                            <input type="radio" name="meals_row_3" id="">
+                            <span class="radio_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <p>1 Meal a Day</p>
+                    </div>
+                </div>
+                <div class="servinc_br_row servinc_br_row_2 uncheck_radio">
+                    <div class="col">
+                        <label class="radio_btn_container radio_btn_container_2">
+                            <input type="radio" name="meals_row_1" id="">
+                            <span class="radio_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="radio_btn_container radio_btn_container_2">
+                            <input type="radio" name="meals_row_2" id="">
+                            <span class="radio_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="radio_btn_container radio_btn_container_2">
+                            <input type="radio" name="meals_row_3" id="">
+                            <span class="radio_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <p>2 Meals a Day</p>
+                    </div>
+                </div>
+                <div class="servinc_br_row servinc_br_row_2 uncheck_radio">
+                    <div class="col">
+                        <label class="radio_btn_container radio_btn_container_2">
+                            <input type="radio" name="meals_row_1" id="">
+                            <span class="radio_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="radio_btn_container radio_btn_container_2">
+                            <input type="radio" name="meals_row_2" id="">
+                            <span class="radio_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="radio_btn_container radio_btn_container_2">
+                            <input type="radio" name="meals_row_3" id="">
+                            <span class="radio_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <p>Breakfast, Lunch and Dinner </p>
+                    </div>
+                </div>
+                <div class="servinc_br_row">
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <p>Tea, Coffee and Snacks any time </p>
+                    </div>
+                </div>
+            </div>
+            <div class="servinc_wrpr mb_10">
+                <div class="servinc_br_row header_row">
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+
+                    </div>
+                    <div class="col">
+                        <label>Other Services</label>
+                    </div>
+                </div>
+                <div class="servinc_br_row">
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <p>Medications Managment</p>
+                    </div>
+                </div>
+                <div class="servinc_br_row">
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <p>Blood pressure / Weight checks</p>
+                    </div>
+                </div>
+                <div class="servinc_br_row">
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <p>Housekeeping and Flat Linens Laundry</p>
+                    </div>
+                </div>
+                <div class="servinc_br_row">
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <p>Personal Laundry</p>
+                    </div>
+                </div>
+                <div class="servinc_br_row">
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <p>Social and Recreational activities</p>
+                    </div>
+                </div>
+                <div class="servinc_br_row">
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <p>24 / 7 Emergency care</p>
+                    </div>
+                </div>
+                <div class="servinc_br_row">
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <p>All utilities (except phone bill)</p>
+                    </div>
+                </div>
+                <div class="servinc_br_row">
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <p>Local transportation</p>
+                    </div>
+                </div>
+                <div class="servinc_br_row">
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <label class="checkbox_item">
+                            <input type="checkbox" name="" id="">
+                            <span class="checkbox_check"></span>
+                        </label>
+                    </div>
+                    <div class="col">
+                        <div class="add_service_wrpr">
+                            <a href="" class="add_service_btn">+add</a>
+                            <input type="text" name="" id="" class="checkbox_text_input" placeholder="Other">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="new_room_v_row">
+        <div class="container">
+            <label class="label_w_question">Move-In Special <span class="grey_text">(optional, excludes Medicaid)</span>
+                <div class="question_icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.99957 0.277771C4.63064 0.277771 0.277344 4.63107 0.277344 9.99999C0.277344 15.3689 4.63064 19.7222 9.99957 19.7222C15.3685 19.7222 19.7218 15.3689 19.7218 9.99999C19.7218 4.63107 15.3685 0.277771 9.99957 0.277771ZM9.99957 18.0729C5.5421 18.0729 1.92665 14.4575 1.92665 9.99999C1.92665 5.54253 5.5421 1.92708 9.99957 1.92708C14.457 1.92708 18.0725 5.54253 18.0725 9.99999C18.0725 14.4575 14.457 18.0729 9.99957 18.0729Z" fill="#13B772"/>
+<path d="M12.4214 5.76173C11.7704 5.19098 10.911 4.87848 9.99957 4.87848C9.08811 4.87848 8.22873 5.19315 7.57769 5.76173C6.90061 6.35417 6.52734 7.15061 6.52734 8.00348V8.16841C6.52734 8.2639 6.60547 8.34202 6.70095 8.34202H7.74262C7.83811 8.34202 7.91623 8.2639 7.91623 8.16841V8.00348C7.91623 7.04645 8.85156 6.26737 9.99957 6.26737C11.1476 6.26737 12.0829 7.04645 12.0829 8.00348C12.0829 8.67839 11.6055 9.29688 10.8655 9.58117C10.4054 9.75695 10.0148 10.0651 9.73481 10.4688C9.45052 10.8811 9.30295 11.3759 9.30295 11.8772V12.3438C9.30295 12.4392 9.38108 12.5174 9.47656 12.5174H10.5182C10.6137 12.5174 10.6918 12.4392 10.6918 12.3438V11.8511C10.693 11.6405 10.7575 11.435 10.8772 11.2616C10.9968 11.0882 11.1659 10.9548 11.3624 10.8789C12.6428 10.3863 13.4696 9.25782 13.4696 8.00348C13.4718 7.15061 13.0985 6.35417 12.4214 5.76173ZM9.13151 14.7743C9.13151 15.0045 9.22297 15.2253 9.38576 15.3881C9.54855 15.5509 9.76934 15.6424 9.99957 15.6424C10.2298 15.6424 10.4506 15.5509 10.6134 15.3881C10.7762 15.2253 10.8676 15.0045 10.8676 14.7743C10.8676 14.5441 10.7762 14.3233 10.6134 14.1605C10.4506 13.9977 10.2298 13.9063 9.99957 13.9063C9.76934 13.9063 9.54855 13.9977 9.38576 14.1605C9.22297 14.3233 9.13151 14.5441 9.13151 14.7743Z" fill="#13B772"/>
+</svg>
+
+                    <div class="question_icon_tooltip">Get noticed and give residents an extra incentive to move in. Offer a discount for the first month final price. This discount will not be visible to medicaid residents.</div>
+                </div>
+            </label>
+            <label class="checkbox_item with_text_input move_spec_input">
+                <input type="checkbox" name="" id="" checked>
+                <span class="checkbox_check"></span>
+                <div class="right_content">
+                    <p><b>Offer a discount for the first month’s rent</b></p>
+                    <p>Enter discount from 1- 100%</p>
+                    <div class="input_row">
+                        <input type="text" name="" id="" class="checkbox_text_input" placeholder="1-100"> <p>% off first month’s rent</p>
+                    </div>
+                </div>
+            </label>
+        </div>
+    </div>
+    <div class="new_room_v_row dark">
+        <div class="container">
+            <label class="label_w_question">Listing Description / Additional Information (optional)</label>
+            <p>Let potential residents know what’s great about this room / home</p>
+            <textarea name="" id="" class="form-control big_height" placeholder="Other"></textarea>
+        </div>
+    </div>
+    <div class="new_room_v_row">
+        <div class="container">
+            <label class="label_w_question">Upload Photos
+                <div class="question_icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.99957 0.277771C4.63064 0.277771 0.277344 4.63107 0.277344 9.99999C0.277344 15.3689 4.63064 19.7222 9.99957 19.7222C15.3685 19.7222 19.7218 15.3689 19.7218 9.99999C19.7218 4.63107 15.3685 0.277771 9.99957 0.277771ZM9.99957 18.0729C5.5421 18.0729 1.92665 14.4575 1.92665 9.99999C1.92665 5.54253 5.5421 1.92708 9.99957 1.92708C14.457 1.92708 18.0725 5.54253 18.0725 9.99999C18.0725 14.4575 14.457 18.0729 9.99957 18.0729Z" fill="#13B772"/>
+<path d="M12.4214 5.76173C11.7704 5.19098 10.911 4.87848 9.99957 4.87848C9.08811 4.87848 8.22873 5.19315 7.57769 5.76173C6.90061 6.35417 6.52734 7.15061 6.52734 8.00348V8.16841C6.52734 8.2639 6.60547 8.34202 6.70095 8.34202H7.74262C7.83811 8.34202 7.91623 8.2639 7.91623 8.16841V8.00348C7.91623 7.04645 8.85156 6.26737 9.99957 6.26737C11.1476 6.26737 12.0829 7.04645 12.0829 8.00348C12.0829 8.67839 11.6055 9.29688 10.8655 9.58117C10.4054 9.75695 10.0148 10.0651 9.73481 10.4688C9.45052 10.8811 9.30295 11.3759 9.30295 11.8772V12.3438C9.30295 12.4392 9.38108 12.5174 9.47656 12.5174H10.5182C10.6137 12.5174 10.6918 12.4392 10.6918 12.3438V11.8511C10.693 11.6405 10.7575 11.435 10.8772 11.2616C10.9968 11.0882 11.1659 10.9548 11.3624 10.8789C12.6428 10.3863 13.4696 9.25782 13.4696 8.00348C13.4718 7.15061 13.0985 6.35417 12.4214 5.76173ZM9.13151 14.7743C9.13151 15.0045 9.22297 15.2253 9.38576 15.3881C9.54855 15.5509 9.76934 15.6424 9.99957 15.6424C10.2298 15.6424 10.4506 15.5509 10.6134 15.3881C10.7762 15.2253 10.8676 15.0045 10.8676 14.7743C10.8676 14.5441 10.7762 14.3233 10.6134 14.1605C10.4506 13.9977 10.2298 13.9063 9.99957 13.9063C9.76934 13.9063 9.54855 13.9977 9.38576 14.1605C9.22297 14.3233 9.13151 14.5441 9.13151 14.7743Z" fill="#13B772"/>
+</svg>
+
+                    <div class="question_icon_tooltip">Photos are one of your biggest selling points. Please include good lighted photos of the room itself as well as any features you want to show your potential residents. (example: Living room, recreation room, dining room, outside garden, staff group photo, etc).</div>
+                </div>
+            </label>
+            <p>Add up to 24 of your highest quality photos</p>
+            <form action="#" id="single_dropzone" class="single_dropzone double_btns">
+                <input type="file" name="file" />
+                <div class="fileuploader h_260" id="fileuploader">
+                    <label class="dz_upload_btn mb_15" id="dz_upload_btn">Take Photos</label>
+                    <label class="dz_upload_btn mb_20" id="dz_upload_btn">Select from Library</label>
+                    <span class="dz_drag_title">or drag them</span>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="new_room_v_row dark">
+        <div class="container">
+            <label class="label_w_question">Room Number or Nickname
+                <div class="question_icon">
+                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M9.99957 0.277771C4.63064 0.277771 0.277344 4.63107 0.277344 9.99999C0.277344 15.3689 4.63064 19.7222 9.99957 19.7222C15.3685 19.7222 19.7218 15.3689 19.7218 9.99999C19.7218 4.63107 15.3685 0.277771 9.99957 0.277771ZM9.99957 18.0729C5.5421 18.0729 1.92665 14.4575 1.92665 9.99999C1.92665 5.54253 5.5421 1.92708 9.99957 1.92708C14.457 1.92708 18.0725 5.54253 18.0725 9.99999C18.0725 14.4575 14.457 18.0729 9.99957 18.0729Z" fill="#13B772"/>
+<path d="M12.4214 5.76173C11.7704 5.19098 10.911 4.87848 9.99957 4.87848C9.08811 4.87848 8.22873 5.19315 7.57769 5.76173C6.90061 6.35417 6.52734 7.15061 6.52734 8.00348V8.16841C6.52734 8.2639 6.60547 8.34202 6.70095 8.34202H7.74262C7.83811 8.34202 7.91623 8.2639 7.91623 8.16841V8.00348C7.91623 7.04645 8.85156 6.26737 9.99957 6.26737C11.1476 6.26737 12.0829 7.04645 12.0829 8.00348C12.0829 8.67839 11.6055 9.29688 10.8655 9.58117C10.4054 9.75695 10.0148 10.0651 9.73481 10.4688C9.45052 10.8811 9.30295 11.3759 9.30295 11.8772V12.3438C9.30295 12.4392 9.38108 12.5174 9.47656 12.5174H10.5182C10.6137 12.5174 10.6918 12.4392 10.6918 12.3438V11.8511C10.693 11.6405 10.7575 11.435 10.8772 11.2616C10.9968 11.0882 11.1659 10.9548 11.3624 10.8789C12.6428 10.3863 13.4696 9.25782 13.4696 8.00348C13.4718 7.15061 13.0985 6.35417 12.4214 5.76173ZM9.13151 14.7743C9.13151 15.0045 9.22297 15.2253 9.38576 15.3881C9.54855 15.5509 9.76934 15.6424 9.99957 15.6424C10.2298 15.6424 10.4506 15.5509 10.6134 15.3881C10.7762 15.2253 10.8676 15.0045 10.8676 14.7743C10.8676 14.5441 10.7762 14.3233 10.6134 14.1605C10.4506 13.9977 10.2298 13.9063 9.99957 13.9063C9.76934 13.9063 9.54855 13.9977 9.38576 14.1605C9.22297 14.3233 9.13151 14.5441 9.13151 14.7743Z" fill="#13B772"/>
+</svg>
+
+                    <div class="question_icon_tooltip">Residents will see this room number or nickname on your
+                        listing. When they call or write you a message, they will reference this room number or
+                        nickname.
+                    </div>
+                </div>
+            </label>
+            <p>Please enter a room number or nickname to help identify this room</p>
+            <div class="form_control_w_badge">
+                <span class="badge_done">Done</span>
+                <input type="text" class="form-control" placeholder="Examples: Room 304, Master Bedroom">
+            </div>
+        </div>
+    </div>
+    <div class="new_room_v_row">
+        <div class="container">
+            <label class="label_w_question">Preview Listing</label>
+            <p>See how your listing will look to users</p>
+            <div class="btn_wrpr">
+                <a href="" class="btn btn_brdr">Preview Listing</a>
+            </div>
+        </div>
+    </div>
+    <div class="new_room_footer">
+        <div class="inner_container">
+            <a href="" class="btn btn_brdr back_step_btn">Back</a>
+            <div class="right">
+                <a href="" class="btn next_step_btn">Save & Finish later</a>
+                <a href="" class="btn next_step_btn">Continue</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<footer class="main-footer">
+	<div class="ft-top">
+		<div class="container">
+			<div class="left">
+				<a href="#" class="ft-logo">Room and Care</a>
+			</div>
+			<div class="right">
+				<nav class="ft-nav">
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About Us</a></li>
+						<li><a href="#">Sign Up</a></li>
+						<li><a href="#">Sign In</a></li>
+						<li><a href="#">Help</a></li>
+						<li><a href="#">List a Room</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+	<div class="ft-bottom">
+		<div class="container">
+			<div class="copiright">© Room and Care 2020</div>
+			<div class="right">
+				<nav class="ft-nav">
+					<ul>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms & Conditions</a></li>
+					</ul>
+				</nav>
+				<ul class="social-items">
+					<li><a href="#">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M13.75 0H6.25C2.79875 0 0 2.79875 0 6.25V13.75C0 17.2013 2.79875 20 6.25 20H13.75C17.2013 20 20 17.2013 20 13.75V6.25C20 2.79875 17.2013 0 13.75 0ZM18.125 13.75C18.125 16.1625 16.1625 18.125 13.75 18.125H6.25C3.8375 18.125 1.875 16.1625 1.875 13.75V6.25C1.875 3.8375 3.8375 1.875 6.25 1.875H13.75C16.1625 1.875 18.125 3.8375 18.125 6.25V13.75Z" fill="white"/>
+<path d="M10 5C7.23875 5 5 7.23875 5 10C5 12.7613 7.23875 15 10 15C12.7613 15 15 12.7613 15 10C15 7.23875 12.7613 5 10 5ZM10 13.125C8.2775 13.125 6.875 11.7225 6.875 10C6.875 8.27625 8.2775 6.875 10 6.875C11.7225 6.875 13.125 8.27625 13.125 10C13.125 11.7225 11.7225 13.125 10 13.125Z" fill="white"/>
+<path d="M15.3752 5.29123C15.7432 5.29123 16.0415 4.99294 16.0415 4.62499C16.0415 4.25703 15.7432 3.95874 15.3752 3.95874C15.0073 3.95874 14.709 4.25703 14.709 4.62499C14.709 4.99294 15.0073 5.29123 15.3752 5.29123Z" fill="white"/>
+</svg>
+
+                    </a></li>
+					<li><a href="#">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.65188 0C1.6289 0 0 1.6289 0 3.65188V16.3481C0 18.3711 1.6289 20 3.65188 20H10.5331V12.1813H8.46564V9.36626H10.5331V6.96126C10.5331 5.07176 11.7547 3.33688 14.5688 3.33688C15.7081 3.33688 16.5506 3.44626 16.5506 3.44626L16.4844 6.07502C16.4844 6.07502 15.6251 6.0669 14.6875 6.0669C13.6727 6.0669 13.51 6.53446 13.51 7.31066V9.36628H16.565L16.4319 12.1813H13.51V20H16.3481C18.3711 20 20 18.3711 20 16.3482V3.6519C20 1.62892 18.3711 2e-05 16.3481 2e-05H3.65186L3.65188 0Z" fill="white"/>
+</svg>
+
+                    </a></li>
+					<li><a href="#">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.9609 2.80812C19.2123 3.13719 18.4195 3.35451 17.6078 3.45312C18.4634 2.93956 19.104 2.13334 19.4109 1.18375C18.6016 1.65312 17.7207 1.98651 16.8034 2.17062C16.1865 1.51153 15.3694 1.07445 14.4788 0.927184C13.5882 0.779918 12.6738 0.930703 11.8777 1.35614C11.0815 1.78159 10.448 2.4579 10.0754 3.28015C9.70283 4.10241 9.61206 5.02463 9.81715 5.90375C6.40902 5.74437 3.38777 4.10687 1.36715 1.63312C0.999321 2.25868 0.806945 2.97182 0.810273 3.6975C0.809772 4.3721 0.975864 5.03639 1.2938 5.63137C1.61173 6.22635 2.07167 6.73362 2.63277 7.10812C1.98254 7.08847 1.34647 6.91338 0.777773 6.5975V6.64687C0.777575 7.59376 1.10478 8.5116 1.70393 9.24482C2.30308 9.97804 3.13733 10.4815 4.06527 10.67C3.71377 10.7639 3.35161 10.812 2.98777 10.8131C2.72465 10.8131 2.4734 10.7875 2.22277 10.7412C2.48685 11.5561 2.9984 12.2683 3.68622 12.7788C4.37403 13.2893 5.20389 13.5726 6.06027 13.5894C4.60928 14.7257 2.81889 15.3422 0.975898 15.34C0.649465 15.3413 0.323249 15.3229 -0.000976562 15.285C1.87908 16.4897 4.0655 17.1292 6.2984 17.1275C13.8403 17.1275 17.9615 10.8806 17.9615 5.47062C17.9615 5.29812 17.9615 5.1225 17.9484 4.94625C18.7546 4.36846 19.4493 3.64934 19.999 2.82375L19.9609 2.80812Z" fill="white"/>
+</svg>
+
+                    </a></li>
+					<li><a href="#">
+                    <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M19.5804 2.16936C19.4642 1.7542 19.2428 1.37605 18.9377 1.07154C18.6325 0.767036 18.2539 0.546482 17.8385 0.431238C16.2791 0.0143632 10.0104 0.0143633 10.0104 0.0143633C10.0104 0.0143633 3.75348 0.00436317 2.17785 0.431238C1.7631 0.546988 1.38523 0.767774 1.08075 1.07225C0.776265 1.37673 0.55548 1.75461 0.43973 2.16936C0.143605 3.76575 -0.00224148 5.38638 0.00410474 7.00999C0.00121531 8.62578 0.147039 10.2384 0.43973 11.8275C0.555854 12.2425 0.776705 12.6206 1.08108 12.9256C1.38545 13.2307 1.76313 13.4523 2.17785 13.5694C3.73723 13.9862 10.0104 13.9862 10.0104 13.9862C10.0104 13.9862 16.2635 13.9862 17.8385 13.5694C18.2539 13.4528 18.6323 13.2314 18.9373 12.9264C19.2424 12.6213 19.4638 12.2429 19.5804 11.8275C19.8672 10.2394 20.0072 8.62436 19.9972 7.00999C20.0072 5.38499 19.8704 3.76749 19.5804 2.16936ZM8.00785 10.0019V4.00499L13.226 7.00999L8.00785 10.0019Z" fill="white"/>
+</svg>
+
+                    </a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser-polyfill.min.js"></script>
+<script src="assets/jquery/jquery.min.js"></script>
+<script src="assets/dropzone/dropzone.js"></script>
+<script src="assets/jquery.maskedinput.min.js"></script>
+<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<script src="assets/nouislider/nouislider.min.js"></script>
+<script src="assets/nouislider/wNumb.js"></script>
+<script src="assets/air-datepicker/datepicker.min.js"></script>
+<script src="assets/air-datepicker/datepicker.en.js"></script>
+
+<script src="js/jquery-google-reviews.js"></script>
+
+<script src="js/common.js"></script>
+
+</body>
+
+</html>

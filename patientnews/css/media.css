@@ -164,3 +164,549 @@
         text-align: center;
     }
 }
+
+@media only screen and (max-width: 768px) {
+
+    .ie .row {
+        flex-wrap: wrap;
+    }
+
+    .about_us .wrap_image {
+        margin-top: 30px;
+    }
+
+    .environmental_commitment .wrap_small_img {
+        margin-top: 30px;
+    }
+
+    .card .card-body {
+        padding-bottom: 15px;
+    }
+
+
+    .card.card_2 {
+        margin-top: 0;
+    }
+
+    .wrap_small_img {
+        margin: 30px 0;
+    }
+
+    .environmental_commitment {
+        margin: 30px 0;
+    }
+
+    .module_title .s_title {
+        margin-bottom: 10px;
+    }
+
+    .navbar_on {
+        padding-bottom: 60px;
+    }
+
+    .navbar {
+        top: auto;
+        bottom: 0;
+        width: 100%;
+        right: 0;
+        transform: none;
+        background: #fff;
+        box-shadow: 7px 4px 7px rgba(89, 0, 10, 0.03);
+        height: 60px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .box_text {
+        position: static;
+        writing-mode: inherit;
+        transform: none;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
+    .navbar .nav-menu {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+
+    .navbar .nav-menu li .dot:before, .navbar .nav-menu li .dot:after {
+        content: none;
+    }
+
+    .navbar .nav-menu li .dot {
+        width: 10px;
+        height: 10px;
+        background: #877070;
+        border-radius: 50%;
+        display: block;
+        padding: 0;
+    }
+
+    .navbar .nav-menu li {
+        margin-right: 20px;
+    }
+
+    .navbar .nav-menu li:last-child {
+        margin-right: 0;
+    }
+
+    .navbar .nav-menu li .dot.active {
+        width: 10px;
+        height: 10px;
+        background: transparent;
+        border: 1px solid #877070;
+    }
+}
+
+@media(min-height: 710px){
+    .sidebar_form {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 100px;
+    }
+}
+
+@media(max-width: 1230px){
+    .dark_card_item .right {
+        max-width: 40%;
+    }
+    .dark_card_item .right.pad_rght {
+        padding-right: 25px;
+    }
+}
+
+@media(max-width: 1199px){
+    .mob_menu_btn {
+        display: block;
+        overflow: hidden;
+        width: 30px;
+        height: 30px;
+        padding: 0;
+        background: transparent;
+        border: 0;
+        margin-left: 15px;
+    }
+    .mob_menu_btn span {
+        width: 30px;
+        height: 5px;
+        background: #C52033;
+        border-radius: 11px;
+        display: block;
+        transition: all 0.3s ease-in-out;
+    }
+    .mob_menu_btn span:nth-child(2) {
+        margin: 6px 0;
+    }
+    .mob_menu_btn.active span:nth-child(1) {
+        transform: rotate(45deg) translate(7px, 8px);
+    }
+    .mob_menu_btn.active span:nth-child(2) {
+        transform: translateX(40px);
+    }
+    .mob_menu_btn.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -8px);
+    }
+    .header_nav {
+        position: fixed;
+        left: -100%;
+        top: 90px;
+        width: 100%;
+        height: calc(100vh - 90px);
+        background: #fff;
+        z-index: 99;
+        transition: 0.3s all ease-in-out;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .header_nav.active {
+        left: 9px;
+    }
+    .header_nav ul {
+        flex-direction: column;
+    }
+    .header_nav ul li {
+        margin: 7px 0;
+    }
+    .header_nav ul li a {
+        font-size: 18px;
+    }
+    .card_icon_item {
+        width: calc(25% - 20px);
+    }
+    .s_patient_journey .after_cards_text span {
+        width: 100%;
+    }
+    .s_with_video .btn_wrpr {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .s_with_video .btn_wrpr .grey_text {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .dark_card_item .left {
+        width: 55%;
+        position: relative;
+        z-index: 2;
+        padding-left: 30px;
+    }
+    .our_community:before {
+        display: none;
+    }
+    .col-3 {
+        max-width: calc(100% / 12 * 4);
+    }
+    .case-studies-items .case-studies-item {
+        width: calc(33.33% - 20px);
+    }
+    .case-studies-item .img-wrap img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .blog_item {
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media(max-width: 991px){
+    .card_icon_item {
+        width: calc(33.33% - 20px);
+    }
+    .s_welcome .cols_wrpr .left {
+        width: 100%;
+        z-index: 2;
+        position: relative;
+    }
+    .s_welcome .cols_wrpr .right {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1;
+        opacity: 0.3;
+    }
+    .s_welcome {
+        padding-top: 40px;
+    }
+    .s_welcome .h1_title {
+        max-width: 100%;
+        font-size: 55px;
+        line-height: 60px;
+    }
+    .s_welcome .cols_wrpr .left .simple_p {
+        margin-bottom: 30px;
+        max-width: 100%;
+    }
+    .s_welcome_doctor {
+        max-height: 387px;
+    }
+    .s_intro_bottom .btn {
+        white-space: nowrap;
+    }
+    .simple_p_light {
+        color: #877070;
+    }
+    .dark_card_item {
+        width: 100%;
+    }
+    .dark_card_item .left {
+        width: 60%;
+    }
+    .marketing_team .column,
+    .account_success_managers .column,
+    .marketing_consultants .column {
+        min-width: 50%;
+        width: 50%;
+    }
+    .marketing_team .card .card-image img,
+    .account_success_managers .card .card-image img,
+    .marketing_consultants .card .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .about_our_team .col-6 {
+        max-width: calc(100% / 1);
+    }
+    .about_our_team .col-6:last-child {
+        margin-top: 10px;
+    }
+    .s-contact .right {
+        display: none;
+    }
+    .s-contact .left {
+        width: 100%;
+    }
+    .s-form-started .form-group {
+        width: calc(50% - 20px);
+    }
+    .s-client-story .top-row .left {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .s-client-story .top-row .right {
+        width: 100%;
+    }
+    .s-client-story .right img {
+        width: calc(50% - 10px);
+        margin: 0 auto;
+        display: block;
+    }
+    .s-client-story .two-col .col {
+        width: 100%;
+    }
+    .blog_item {
+        width: calc(50% - 20px);
+    }
+    .search_filter_line {
+        flex-direction: column;
+    }
+    .search_filter_line .s_title {
+        margin-bottom: 20px;
+    }
+    .pagination {
+        justify-content: center;
+    }
+    .search_filter_line .inputs_wrpr {
+        margin-left: 0;
+    }
+    .two-col .col {
+        width: 100%;
+    }
+    .two-col .col:first-child {
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 767px){
+    .card_icon_item {
+        width: calc(50% - 20px);
+    }
+    .arrow_prev {
+        left: 0;
+    }
+    .arrow_next {
+        right: 0;
+    }
+    .s_patient_journey .card_icon_wrpr .card_icon_item:nth-child(1):after,
+    .s_patient_journey .card_icon_wrpr .card_icon_item:nth-child(2):after,
+    .s_patient_journey .card_icon_wrpr .card_icon_item:nth-child(3):after,
+    .s_patient_journey .card_icon_wrpr .card_icon_item:nth-child(4):after,
+    .s_patient_journey .card_icon_wrpr .card_icon_item:nth-child(4):before {
+        right: -10px;
+        opacity: 0.6;
+    }
+    .card_icon_item {
+        width: 100%;
+    }
+    .marketing_team .column, .account_success_managers .column, .marketing_consultants .column {
+        min-width: 100%;
+        width: 100%;
+    }
+    .card .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .s-form-started .form-group {
+        width: calc(100% - 20px);
+    }
+    .address-container .address-items p {
+        width: 100%;
+    }
+    .s-careers .left,
+    .s-careers .right {
+        width: 100%;
+    }
+    .s-careers .left {
+        margin-bottom: 20px;
+    }
+    .two-col .col {
+        width: 100%;
+    }
+    .careers-slider img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .case-studies-items .case-studies-item {
+        width: calc(50% - 20px);
+    }
+    .s-client-story .top-row .left {
+        padding-left: 0;
+    }
+    .s-client-story .go-back {
+        position: inherit;
+        margin-bottom: 10px;
+        top: inherit;
+    }
+    .s-client-story .star-items {
+        margin-top: 25px;
+        margin-bottom: 15px;
+    }
+    .s-client-story .right img {
+        width: 100%;
+    }
+    .blog_item {
+        width: calc(100% - 20px);
+    }
+    .pagination ul li {
+        margin-left: 10px;
+    }
+    .pagination a {
+        min-width: 30px;
+        min-height: 30px;
+    }
+    .pagination a.btn_w_arrow {
+        padding: 0 10px;
+    }
+    .search_filter_line .inputs_wrpr {
+        flex-direction: column;
+    }
+    .search_filter_line .search_input_wrpr {
+        margin-right: 0;
+    }
+    .search_filter_line .inputs_wrpr .select {
+        margin-top: 20px;
+    }
+    .intro_w_back {
+        flex-direction: column;
+    }
+    .intro_w_back .back_btn {
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 576px){
+    .header .btn,
+    .header .sign_in_link {
+        display: none;
+    }
+    .header .for_mob.btn,
+    .header .for_mob.sign_in_link {
+        display: block;
+        margin: 0 auto;
+        margin-top: 7px;
+        margin-bottom: 7px;
+    }
+    .s_welcome .simple_p_light br {
+        display: none;
+    }
+    .s_intro_bottom {
+        flex-direction: column;
+    }
+    .s_intro_bottom .simple_p {
+        margin-bottom: 20px;
+    }
+    .dark_card_item .left {
+        width: 100%;
+        padding: 30px;
+    }
+    .dark_card_item {
+        min-height: 300px;
+    }
+    .dark_card_item .left {
+        width: 100%;
+        padding: 30px;
+        background: rgba(0, 0, 0, 0.3);
+        height: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .dark_card_item .item_title {
+        text-align: center;
+    }
+    .about_us {
+        padding: 20px 0;
+    }
+    .wrap_image_full_width {
+        margin: 30px 0;
+    }
+    .contact-items .contact-item {
+        padding: 10px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .contact-info-box {
+        padding: 20px;
+    }
+    .contact-items .contact-item p {
+        font-size: 14px;
+    }
+    .s-careers .btns-wrap {
+        flex-direction: column;
+    }
+    .s-careers .btns-wrap .btn {
+        margin: 5px 0px;
+    }
+    .case-studies-items .case-studies-item {
+        width: calc(100% - 20px);
+    }
+    .wide-block {
+        padding: 30px 0;
+    }
+    .wide-block p {
+        font-size: 24px;
+        line-height: 38px;
+    }
+    .new-patients {
+        padding: 20px;
+    }
+    .pagination ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .pagination ul li:first-child,
+    .pagination ul li:last-child {
+        width: 100%;
+        display: flex;
+        margin: 10px;
+        justify-content: center;
+    }
+    .s_blog {
+        padding: 20px 0 30px;
+    }
+    .s_grey_outro {
+        padding: 30px 0;
+    }
+    .s_grey_outro h3 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+}
+
+@media(max-width: 400px){
+	.s_welcome .h1_title {
+        font-size: 45px;
+        line-height: 53px;
+    }
+    .dwnld_form_btn {
+        padding: 15px 8px;
+    }
+    .s_proven_dental {
+        padding: 50px 0;
+    }
+    .s_title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .dark_card_item .item_title {
+        font-size: 28px;
+        line-height: 35px;
+    }
+    .dark_card_item .left {
+        padding: 15px;
+    }
+    .video_item .item_title {
+        font-size: 14px;
+    }
+}
