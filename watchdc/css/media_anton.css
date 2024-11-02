@@ -1,0 +1,68 @@
+@media (max-width: 1600px) {
+    .recently_opened_item {
+        width: calc(33.33% - 12px);
+    }
+}
+
+@media (max-width: 1400px) {
+    .recently_opened_item {
+        padding: 10px;
+    }
+
+    .recently_opened_item .name {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .recently_opened_item .last_visit {
+        font-size: 12px;
+    }
+
+    .map_box {
+        right: -65%;
+    }
+
+    .card-group .right .table_wrpr {
+        overflow-x: auto;
+        max-width: 100%;
+    }
+
+    .card-group .right .table_wrpr .table {
+        white-space: nowrap;
+    }
+
+    .api-action-group a {
+        white-space: nowrap;
+    }
+}
+
+@media (max-width: 1199px) {
+    .table_wrpr {
+        overflow-x: auto;
+        max-width: 100%;
+    }
+
+    .organization_table {
+        white-space: nowrap;
+    }
+
+    .top_notification {
+        padding: 24.2px 32px;
+    }
+}
+
+@media (max-width: 991px) {
+
+}
+
+@media (max-width: 767px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 400px) {
+
+}

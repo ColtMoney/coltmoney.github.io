@@ -1,0 +1,224 @@
+@media(max-width: 1600px) {
+    .app-item {
+        width: calc(50% - 24px);
+    }
+
+    .graphic_cards_wrpr.operations_reports_custom {
+        flex-wrap: wrap;
+    }
+    .graphic_cards_wrpr.operations_reports_custom .graphic_card_box_25,
+    .graphic_cards_wrpr.operations_reports_custom .graphic_card_box_35,
+    .graphic_cards_wrpr.operations_reports_custom .graphic_card_box_40 {
+        width: calc(50% - 24px);
+        min-width: 350px;
+    }
+}
+
+@media(max-width: 1440px) {
+    .app-top-items.not-synced {
+        font-size: 32px;
+        line-height: 42px;
+        padding-bottom: 35px;
+    }
+
+    .account-card-wrap {
+        flex-direction: column-reverse;
+    }
+
+    .account-card-wrap .card {
+        width: 100%;
+    }
+
+    .card-sidebar {
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        border-bottom: 1px solid #E8E8E8;
+    }
+    .graphic_cards_wrpr .graphic_card_box.graphic_item {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1300px) {
+    .app-item {
+        width: 100%;
+    }
+}
+
+@media(max-width: 1199px) {
+    .operations_new_report.card-info {
+        flex-direction: column;
+        height: auto;
+    }
+    .operations_new_report .left_side {
+        border-right: 0;
+        border-bottom: 1px solid #ADC1DB;
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 20px;
+        margin-top: 40px;
+    }
+    .operations_new_report .right_side {
+        width: 100%;
+        text-align: center;
+    }
+    .graphic_cards_wrpr.operations_reports_custom .graphic_card_box_25,
+    .graphic_cards_wrpr.operations_reports_custom .graphic_card_box_35,
+    .graphic_cards_wrpr.operations_reports_custom .graphic_card_box_40 {
+        width: 100%;
+    }
+    .card-group {
+        flex-direction: column;
+    }
+
+    .card-group .left,
+    .card-group .right {
+        width: 100%;
+    }
+
+    .card-group .left {
+        margin-bottom: 20px;
+        min-width: 100%;
+    }
+    .fieldset.max_w_690,
+    .fieldset.max_w_795 {
+        max-width: 100%;
+    }
+}
+
+@media(max-width: 991px) {}
+
+@media(max-width: 767px) {
+    .operations_new_report .left_side.w_100 {
+        padding-right: 0;
+    }
+    .big_breadcrumbs li {
+        white-space: normal;
+        line-height: 32px;
+    }
+    .big_breadcrumbs {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    .links_in_breadcumbs {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+    .big_breadcrumbs:after {
+        display: none;
+    }
+    .graphic_card_box_3.graphic_circles_row .legend{
+        margin-left: 15px;
+    }
+    .form-card {
+        padding: 40px 15px;
+    }
+
+    .license-top-items .license-item {
+        width: calc(50% - 12px);
+        margin-bottom: 10px;
+    }
+
+    .account-main-info .control-col-2 .form-control {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .card.card-info {
+        padding: 30px 15px;
+    }
+
+    .lg-title {
+        font-size: 25px;
+        line-height: 36px;
+    }
+}
+
+@media(max-width: 576px) {
+    .multiple_control_group {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .cols_inputs_wrpr .col {
+        width: 100%;
+    }
+    .datepicker_controls_group .time_input_wrpr {
+        max-width: 100%;
+        margin-top: 5px;
+    }
+    .license-top-items {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .license-top-items .license-item {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .group-control .form-control:first-child {
+        margin-right: 0;
+        max-width: 100%;
+    }
+
+    .group-control .form-control:last-child {
+        max-width: 100%;
+    }
+
+    .group-control {
+        flex-direction: column;
+    }
+
+    .account-item.account-email {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+
+    .account-item.account-email .form-control {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .card-info .btns-wrap {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .operations_new_report.card-info {
+        padding: 30px 20px;
+    }
+    .datapicker_block {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .datapicker_block .form-control {
+        max-width: 100%;
+        margin-right: 0;
+    }
+}
+
+@media(max-width: 400px) {
+    .operations_new_report.card-info .radio_green_btns_wrpr .radio_green_btn {
+        margin-right: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .app-item {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+    }
+    .app-item .img-wrap {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    .app-item p {
+        margin-right: 0;
+    }
+}

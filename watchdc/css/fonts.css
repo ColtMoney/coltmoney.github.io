@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+@font-face {
+    font-family: 'Circe';
+    src: url('fonts/Circe-ExtraBold.eot');
+    src: url('fonts/Circe-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Circe-ExtraBold.woff') format('woff'),
+        url('fonts/Circe-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Circe';
+	font-weight: 700;
+	font-style: normal;
+	src: url("fonts/Circe-Bold.eot");
+	src: url("fonts/Circe-Bold.eot?#iefix") format("embedded-opentype"),
+	url("fonts/Circe-Bold.woff") format("woff"),
+	url("fonts/Circe-Bold.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: 'Circe';
+	font-weight: 400;
+	font-style: normal;
+	src: url("fonts/Circe-Regular.eot");
+	src: url("fonts/Circe-Regular.eot?#iefix") format("embedded-opentype"),
+		url("fonts/Circe-Regular.woff") format("woff"),
+		url("fonts/Circe-Regular.ttf") format("truetype");
+}
+
+
+@font-face {
+	font-family: "Noto Sans";
+	src: url("https://use.typekit.net/af/a91117/00000000000000003b9b257c/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff2"), url("https://use.typekit.net/af/a91117/00000000000000003b9b257c/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("woff"), url("https://use.typekit.net/af/a91117/00000000000000003b9b257c/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n5&v=3") format("opentype");
+	font-display: auto;
+	font-style: normal;
+	font-weight: 500;
+}
+
+@font-face {
+    font-family: 'DS-Digital';
+    src: url('fonts/DS-Digital-Bold.eot');
+    src: url('fonts/DS-Digital-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/DS-Digital-Bold.woff') format('woff'),
+        url('fonts/DS-Digital-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
