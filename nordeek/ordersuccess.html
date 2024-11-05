@@ -1,0 +1,859 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Title</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="robots" content="noindex">
+
+	<!-- Template Basic Images Start -->
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<!-- Template Basic Images End -->
+
+	<!-- Bootstrap (latest) Grid Styles Only -->
+	<style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}[role="button"]{cursor:pointer}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.row{margin-left:-15px;margin-right:-15px}.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:768px){.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:992px){.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:1200px){.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after{content:" ";display:table}.clearfix:after,.container:after,.container-fluid:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right !important}.pull-left{float:left !important}.hide{display:none !important}.show{display:block !important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none !important}.affix{position:fixed}.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none !important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none !important}@media (max-width:767px){.visible-xs{display:block !important}table.visible-xs{display:table !important}tr.visible-xs{display:table-row !important}th.visible-xs,td.visible-xs{display:table-cell !important}}@media (max-width:767px){.visible-xs-block{display:block !important}}@media (max-width:767px){.visible-xs-inline{display:inline !important}}@media (max-width:767px){.visible-xs-inline-block{display:inline-block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm{display:block !important}table.visible-sm{display:table !important}tr.visible-sm{display:table-row !important}th.visible-sm,td.visible-sm{display:table-cell !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-block{display:block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline{display:inline !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline-block{display:inline-block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md{display:block !important}table.visible-md{display:table !important}tr.visible-md{display:table-row !important}th.visible-md,td.visible-md{display:table-cell !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-block{display:block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline{display:inline !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline-block{display:inline-block !important}}@media (min-width:1200px){.visible-lg{display:block !important}table.visible-lg{display:table !important}tr.visible-lg{display:table-row !important}th.visible-lg,td.visible-lg{display:table-cell !important}}@media (min-width:1200px){.visible-lg-block{display:block !important}}@media (min-width:1200px){.visible-lg-inline{display:inline !important}}@media (min-width:1200px){.visible-lg-inline-block{display:inline-block !important}}@media (max-width:767px){.hidden-xs{display:none !important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none !important}}@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none !important}}@media (min-width:1200px){.hidden-lg{display:none !important}}.visible-print{display:none !important}@media print{.visible-print{display:block !important}table.visible-print{display:table !important}tr.visible-print{display:table-row !important}th.visible-print,td.visible-print{display:table-cell !important}}.visible-print-block{display:none !important}@media print{.visible-print-block{display:block !important}}.visible-print-inline{display:none !important}@media print{.visible-print-inline{display:inline !important}}.visible-print-inline-block{display:none !important}@media print{.visible-print-inline-block{display:inline-block !important}}@media print{.hidden-print{display:none !important}}</style>
+
+	<!-- Header CSS (first screen styles from header.min.css) - inserted in the build of the project -->
+	<style>a,a:focus,a:hover{text-decoration:none}::-webkit-input-placeholder{color:#616161;opacity:1}:-moz-placeholder{color:#616161;opacity:1}::-moz-placeholder{color:#616161;opacity:1}:-ms-input-placeholder{color:#616161;opacity:1}body input:focus:required:invalid,body input:required:valid,body textarea:focus:required:invalid,body textarea:required:valid{color:#616161}body{font-size:16px;min-width:320px;position:relative;line-height:1.6;font-family:roboto-r,sans-serif;overflow-x:hidden}.head-logo-descr,.head-logo-wrap span,.head-right-items .head-search-box label input,h1,strong{font-family:roboto-l}h1,h2,h3,h4,h5,h6,p{margin:0;font-weight:400}strong{font-weight:400}h1{color:#010101}img{max-width:100%}a{display:block;outline:0}ul{margin:0;padding:0;list-style-type:none}.wrapper,body,html{height:100%}header{padding:15px 0;border-bottom:1px solid #EDEDED;position:relative}.head-top-panel{padding-right:40px}.head-logo-descr,.head-logo-wrap{display:inline-block;vertical-align:middle}.head-logo-descr span,.head-logo-wrap span{display:block;color:#616161}.head-logo-wrap{margin-right:25px}.head-logo-wrap span{font-size:11px}.head-logo-descr{font-size:13px}.head-right-items{padding:12px 0}.head-right-items>div{float:left}.head-right-items .head-city a,.head-right-items .privat-office a{color:#1e2844;font-size:13px}.head-right-items .head-city a .fa,.head-right-items .privat-office a .fa{padding-left:5px}.head-right-items .head-city{margin-right:28px}.head-right-items .head-city a span{border-bottom:1px dashed #C5C8D0}.head-right-items .privat-office{margin-right:30px}.head-right-items .privat-office a{border-bottom:1px solid #E4E6E9}.head-right-items .head-basked{font-size:13px}.head-right-items .head-basked a{display:inline-block;color:#0f0f0f;position:relative;z-index:102}.head-right-items .head-basked a .fa{font-size:14px;color:#122341;margin-right:12px}.head-right-items .head-basked .basked-price{color:#6c6c6c;position:relative}.head-right-items .head-search-btn{cursor:pointer;position:absolute;right:13px;top:5px}.head-right-items .head-search-btn .fa-times{border:1px solid #F1F1F1}.head-right-items .head-search-btn .fa{font-size:14px;color:#122341;padding:10px}.head-right-items .head-search-box{background-color:#fff;padding:10px;border:1px solid #EDEDED;position:absolute;z-index:10;top:61px;right:15px;width:300px;display:none}.head-right-items .head-search-box label{position:relative}.head-right-items .head-search-box label input{background-color:#F9F9F9;border:1px solid #F1F1F1;padding:12px 10px 12px 15px;font-size:13px;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box}.head-right-items .head-search-box label button{position:absolute;right:12px;top:4px;background-color:transparent;line-height:14px;border:none}.head-right-items .head-search-box label button .fa{font-size:14px}#menu ul{padding-top:15px;display:none}#menu ul li{border:1px solid transparent}#menu ul li a{color:#fff;display:inline-block;font-size:12px}#menu ul li a.privat-office{border-bottom:1px solid #CECECE}#menu ul li a.head-city span{border-bottom:1px dashed #CECECE;margin-right:10px}#menu ul li label{position:relative}#menu ul li label input{border:none;padding:10px 10px 10px 35px;-webkit-border-radius:2px;border-radius:2px;width:100%;-webkit-box-sizing:border-box;box-sizing:border-box;color:#9799a0}#menu ul li label button{position:absolute;left:0;top:-9px;padding:8px;background-color:transparent;border:none;color:#9799a0;font-size:14px}.cart-open-wrap{position:absolute;top:60px;right:15px;border:1px solid #EDEDED;border-top:3px solid #1E2844;z-index:101;display:none;background-color:#fff;width:315px}.cart-open-wrap .cart-items{position:relative}.cart-open-wrap .cart-items::before{content:'';position:absolute;z-index:1;top:-16px;left:74px;border:8px solid transparent;border-bottom:8px solid #1E2844}.cart-open-wrap .cart-items .cart-btn{padding:15px}.cart-open-wrap .cart-items .cart-btn .main-btn{width:100%;text-align:center;color:#fff}.cart-open-wrap .cart-items .cart-btn .main-btn:hover{color:#fff}.cart-open-wrap .cart-item{position:relative;border-bottom:1px solid #EDEDED;padding:10px}.cart-open-wrap .cart-item .cart-close{position:absolute;right:20px;top:30px}.cart-open-wrap .cart-item .cart-close a{color:#1e2844}.cart-open-wrap .cart-item .cart-product-name,.cart-open-wrap .cart-item .img-wrap{display:inline-block;vertical-align:top}.cart-open-wrap .cart-item .img-wrap{-webkit-box-shadow:0 0 2px #F4F4F5;box-shadow:0 0 2px #F4F4F5;padding:10px;text-align:center;margin-right:20px}.cart-open-wrap .cart-item .cart-product-name{max-width:165px}.cart-open-wrap .cart-item .cart-product-name a{font-size:13px;font-family:roboto-l;color:#1e2844}.cart-open-wrap .cart-item .cart-product-name a strong{color:#8c8d8d}.cart-open-wrap .cart-item .cart-product-name a span{text-decoration:underline;-webkit-text-decoration-color:#E4E5E8;-moz-text-decoration-color:#E4E5E8;text-decoration-color:#E4E5E8}.cart-open-wrap .cart-item .cart-product-name .cart-price{color:#010101;font-size:14px;margin-top:5px}.product-setting-btn{margin-top:28px;margin-bottom:30px}.product-setting-btn ul li{display:inline-block;margin-right:15px}.product-setting-btn ul li a{padding:12px 20px;text-transform:uppercase;border:1px solid #E5E5E5;color:#1e2844;font-family:sans-r;font-size:11px;-webkit-transition:all .25s ease;transition:all .25s ease;-webkit-border-radius:2px;border-radius:2px}.product-setting-btn ul li a .fa{color:#beccd3;padding-left:15px;font-size:16px;position:relative;top:1px}.product-setting-btn ul li .active,.product-setting-btn ul li a:hover{border:1px solid #122343;color:#fff;background-color:#122343}.product-setting-btn ul li a:hover{-webkit-transition:all .25s ease;transition:all .25s ease}.product-setting-btn ul .watch-catalog{float:right;margin-right:0}.hamburger{display:none}#nav-icon1{background-color:#122343;-webkit-border-radius:3px;border-radius:3px;width:30px;height:30px;position:relative;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.5s ease-in-out;transition:.5s ease-in-out;cursor:pointer}#nav-icon1 span{display:block;position:absolute;height:2px;width:60%;right:0;margin:auto;background:#fff;opacity:1;left:0;-webkit-transform:rotate(0);-ms-transform:rotate(0);transform:rotate(0);-webkit-transition:.25s ease-in-out;transition:.25s ease-in-out}#nav-icon1 span:nth-child(1){top:7px}#nav-icon1 span:nth-child(2){top:14px}#nav-icon1 span:nth-child(3){top:21px}#nav-icon1.open span:nth-child(1){top:14px;-webkit-transform:rotate(135deg);-ms-transform:rotate(135deg);transform:rotate(135deg)}#nav-icon1.open span:nth-child(2){opacity:0;left:-60px}#nav-icon1.open span:nth-child(3){top:14px;-webkit-transform:rotate(-135deg);-ms-transform:rotate(-135deg);transform:rotate(-135deg)}</style>
+	<!-- Load CSS, CSS Localstorage & WebFonts Main Function -->
+	<script>!function(e){"use strict";function t(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)};function n(t,n){return e.localStorage&&localStorage[t+"_content"]&&localStorage[t+"_file"]===n};function a(t,a){if(e.localStorage&&e.XMLHttpRequest)n(t,a)?o(localStorage[t+"_content"]):l(t,a);else{var s=r.createElement("link");s.href=a,s.id=t,s.rel="stylesheet",s.type="text/css",r.getElementsByTagName("head")[0].appendChild(s),r.cookie=t}}function l(e,t){var n=new XMLHttpRequest;n.open("GET",t,!0),n.onreadystatechange=function(){4===n.readyState&&200===n.status&&(o(n.responseText),localStorage[e+"_content"]=n.responseText,localStorage[e+"_file"]=t)},n.send()}function o(e){var t=r.createElement("style");t.setAttribute("type","text/css"),r.getElementsByTagName("head")[0].appendChild(t),t.styleSheet?t.styleSheet.cssText=e:t.innerHTML=e}var r=e.document;e.loadCSS=function(e,t,n){var a,l=r.createElement("link");if(t)a=t;else{var o;o=r.querySelectorAll?r.querySelectorAll("style,link[rel=stylesheet],script"):(r.body||r.getElementsByTagName("head")[0]).childNodes,a=o[o.length-1]}var s=r.styleSheets;l.rel="stylesheet",l.href=e,l.media="only x",a.parentNode.insertBefore(l,t?a:a.nextSibling);var c=function(e){for(var t=l.href,n=s.length;n--;)if(s[n].href===t)return e();setTimeout(function(){c(e)})};return l.onloadcssdefined=c,c(function(){l.media=n||"all"}),l},e.loadLocalStorageCSS=function(l,o){n(l,o)||r.cookie.indexOf(l)>-1?a(l,o):t(e,"load",function(){a(l,o)})}}(this);</script>
+
+	<!-- Load Fonts CSS Start -->
+	<script>
+		loadCSS( "css/fonts.min.css?ver=1.0.0", false, "all" ); // Loading fonts, if the site is located in a subfolder
+		// loadLocalStorageCSS( "webfonts", "css/fonts.min.css?ver=1.0.0" ); // Loading fonts, if the site is at the root
+	</script>
+	<!-- Load Fonts CSS End -->
+
+	<!-- Load Custom CSS Start -->
+	<!--<Deject>--><script>loadCSS( "header.min.css?ver=1.0.0", false, "all" );</script><!--</Deject>-->
+	<script>loadCSS( "css/main.min.css?ver=1.0.0", false, "all" );</script>
+	<!-- Load Custom CSS End -->
+
+	<!-- Load Custom CSS Compiled without JS Start -->
+	<noscript>
+		<link rel="stylesheet" href="css/fonts.min.css">
+		<link rel="stylesheet" href="css/main.min.css">
+	</noscript>
+	<!-- Load Custom CSS Compiled without JS End -->
+
+</head>
+
+<body>
+
+	<div class="wrapper">
+		<header>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="head-top-panel">
+							<a href="#menu" class="hamburger">
+								<div id="nav-icon1">
+									<span></span>
+									<span></span>
+									<span></span>
+								</div>
+							</a>
+							<div class="head-left-item pull-left">
+								<div class="head-logo-wrap">
+									<a href="index.html" class="head-logo-img">
+										<img src="img/logo.jpg" alt="">
+									</a>
+									<span>Стильный дизайн. Скандинавское качество</span>
+								</div>
+								<div class="head-logo-descr">
+									<span>Официальный сайт смесителей </span>
+									<span>Интернет магазин смесителей .</span>
+								</div>
+							</div>
+							<div class="head-right-items pull-right">
+								<div class="head-city"><a href="#"><span>Киев</span><i class="fa fa-angle-down" aria-hidden="true"></i></a></div>
+								<div class="privat-office"><a href="#authentication-popup" class="mfp-authentication">Личный кабинет</a></div>
+								<div class="head-basked"><a href="basked.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Корзина </a><span class="basked-price"><b> - </b> 3 товара 19 000 грн.</span></div>
+								<div class="cart-open-wrap">
+									<div class="cart-items">
+										<div class="cart-item">
+											<div class="img-wrap">
+												<img src="img/basked-img/1.jpg" alt="">
+											</div>
+											<div class="cart-product-name">
+												<a href="itemcard.html"><span>Угловой вентиль Nord Сeek NCAV91072 (M901072)</span> <strong>x 2</strong></a>
+
+												<div class="cart-price">5 400 грн.</div>
+											</div>
+											<div class="cart-close">
+												<a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+											</div>
+										</div>
+										<div class="cart-item">
+											<div class="img-wrap">
+												<img src="img/basked-img/1.jpg" alt="">
+											</div>
+											<div class="cart-product-name">
+												<a href="itemcard.html"><span>Угловой вентиль Nord Сeek NCAV91072 (M901072)</span> <strong>x 2</strong></a>
+
+												<div class="cart-price">5 400 грн.</div>
+											</div>
+											<div class="cart-close">
+												<a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+											</div>
+										</div>
+										<div class="cart-item">
+											<div class="img-wrap">
+												<img src="img/basked-img/1.jpg" alt="">
+											</div>
+											<div class="cart-product-name">
+												<a href="itemcard.html"><span>Угловой вентиль Nord Сeek NCAV91072 (M901072)</span> <strong>x 2</strong></a>
+
+												<div class="cart-price">5 400 грн.</div>
+											</div>
+											<div class="cart-close">
+												<a href="#"><i class="fa fa-times" aria-hidden="true"></i></a>
+											</div>
+										</div>
+										<div class="cart-btn">
+											<a href="basked.html" class="main-btn">перейти в корзину</a>
+										</div>
+									</div>
+								</div>
+								<div class="head-search-btn"><i class="fa fa-search" aria-hidden="true"></i></div>
+								<div class="head-search-box">
+									<form>
+										<label>
+											<input type="search" name="search" placeholder="Поиск...">
+											<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+										</label>
+									</form>
+								</div>
+							</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- The menu -->
+			<nav id="menu">
+				<ul>
+					<li><a href="#authentication-popup" class="privat-office mfp-authentication">Личный кабинет</a></li>
+					<li><a href="#" class="head-city"><span>Киев</span><i class="fa fa-angle-down" aria-hidden="true"></i></a></li>
+					<li>
+						<form>
+							<label>
+								<input type="search" name="search" placeholder="Поиск...">
+								<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+							</label>
+						</form>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section class="s-product">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="s-caption"><h1>Оформление заказа</h1></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="bread-crumbs">
+							<a href="index.html">Главная</a>
+							<span>/</span>
+							<a href="catalog.html">Корзина</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="s-success">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-10">
+						<div class="success-caption">Поздравляем!</div>
+						<div class="success-descr">Ваш заказ оформлен, ему присвоен номер №32450</div>
+						<p>
+							Вы можете отследить ваш заказ в личном кабинете на нашем сайте.
+							Для входа в личный кабинет используйте емайл и пароль которые вы указали при оформлении
+							заказа.
+						</p>
+						<div class="private-office-btn-wrap">
+							<a href="privateoffice.html" class="main-btn">войти в личный кабинет</a>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-8 col-md-10">
+						<div class="person-order-box">
+							<h4>Ваш заказ:</h4>
+							<div class="order-box-table-name">
+								<span class="pull-left">Товар</span>
+								<span class="pull-right">Стоимость</span>
+								<div class="clearfix"></div>
+							</div>
+							<div class="person-order-item-wrap">
+								<a href="#"><span>Угловой вентиль Nord Сeek NCAV91072 (M901072)</span> <strong>x 2</strong></a>
+								<div class="person-order-price">5 400 грн.</div>	
+							</div>
+							<div class="person-order-item-wrap">
+								<a href="#"><span>Угловой вентиль Nord Сeek NCAV91072 (M901072)</span> <strong>x 2</strong></a>
+								<div class="person-order-price">5 400 грн.</div>	
+							</div>
+							<div class="person-order-item-wrap">
+								<a href="#"><span>Угловой вентиль Nord Сeek NCAV91072 (M901072)</span> <strong>x 2</strong></a>
+								<div class="person-order-price">5 400 грн.</div>	
+							</div>
+							<div class="person-order-result-price">Итого:  16 200 грн.</div>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="s-lineup">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="s-caption">
+							<h1>Модельный ряд</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<div class="line-items">
+							<div class="line-item">
+								<div class="line-inner-cont">
+									<h3>024</h3>
+									<ul>
+										<li><a href="#">NCM52024</a></li>
+										<li><a href="#">NC52024</a></li>
+										<li><a href="#">NC41024</a></li>
+										<li><a href="#">NC12024</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="line-item">
+								<div class="line-inner-cont">
+									<h3>030</h3>
+									<ul>
+										<li><a href="#">NC21030</a></li>
+										<li><a href="#">NC12030</a></li>
+										<li><a href="#">NC13030</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="line-item">
+								<div class="line-inner-cont">
+									<h3>031</h3>
+									<ul>
+										<li><a href="#">NC31031</a></li>
+									</ul>
+								</div>
+								<div class="line-inner-cont">
+									<h3>032</h3>
+									<ul>
+										<li><a href="#">NC13032</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="line-item">
+								<div class="line-inner-cont">
+									<h3>063</h3>
+									<ul>
+										<li><a href="#">NC21063</a></li>
+										<li><a href="#">NC23063</a></li>
+										<li><a href="#">NC24063</a></li>
+										<li><a href="#">NC26063</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="line-item">
+								<div class="line-inner-cont">
+									<h3>062</h3>
+									<ul>
+										<li><a href="#">NC52062</a></li>
+										<li><a href="#">NC41062</a></li>
+										<li><a href="#">NC21062</a></li>
+										<li><a href="#">NC11062</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="line-item">
+								<div class="line-inner-cont">
+									<h3>065</h3>
+									<ul>
+										<li><a href="#">NC41065</a></li>
+										<li><a href="#">NC21065</a></li>
+										<li><a href="#">NC11065</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="line-item">
+								<div class="line-inner-cont">
+									<h3>066</h3>
+									<ul>
+										<li><a href="#">NC41066</a></li>
+										<li><a href="#">NC31066</a></li>
+										<li><a href="#">NC21066</a></li>
+										<li><a href="#">NC11066</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="line-item">
+								<div class="line-inner-cont">
+									<h3>068</h3>
+									<ul>
+										<li><a href="#">NC53068</a></li>
+										<li><a href="#">NC41068</a></li>
+										<li><a href="#">NC11068</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="line-item">
+								<div class="line-inner-cont">
+									<h3>098</h3>
+									<ul>
+										<li><a href="#">NC41098</a></li>
+										<li><a href="#">NC21098</a></li>
+										<li><a href="#">NC11098</a></li>
+										<li><a href="#">NC12098</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="line-item">
+								<div class="line-inner-cont">
+									<h3>121</h3>
+									<ul>
+										<li><a href="#">NC41121</a></li>
+										<li><a href="#">NC21121</a></li>
+										<li><a href="#">NC11121</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="line-item">
+								<div class="line-inner-cont">
+									<h3>127</h3>
+									<ul>
+										<li><a href="#">NC51127</a></li>
+										<li><a href="#">NC31127</a></li>
+										<li><a href="#">NC41127</a></li>
+										<li><a href="#">NC22127</a></li>
+										<li><a href="#">NC11127</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="line-item">
+								<div class="line-inner-cont">
+									<h3>Аксессуары</h3>
+									<ul>
+										<li><a href="#">NCSH04</a></li>
+										<li><a href="#">NCSH05</a></li>
+									</ul>
+									<ul>
+										<li><a href="#">NCAV91072</a></li>
+										<li><a href="#">NCAV97072</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="s-details">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-3">
+						<div class="concret-box">
+							<h3>Уход и обслуживание</h3>
+							<ul>
+								<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Как ухаживать за смесителями </a></li>
+								<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Как установить смеситель </a></li>
+								<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Гарантийное обслуживание и гарантийные центры смесителей </a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="concret-box">
+							<h3>Где купить</h3>
+							<ul>
+								<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Найдите ближайший к Вам магазин, где можно приобрести смеситель </a></li>
+								<li><a href="text.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Условия оплаты и доставки в интернет магазине </a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="concret-box">
+							<h3>О нас</h3>
+							<ul>
+								<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>История брэнда </a></li>
+								<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Контактная информация официального представителя  на территории Украины</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3">
+						<div class="concret-box">
+							<h3>Техническая <span class="hidden-lg hidden-md hidden-xs">инф-ция</span> <span class="hidden-sm">информация</span></h3>
+							<ul>
+								<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>3Д модели смесителей </a></li>
+								<li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>Чертежи смесителей </a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="ft-top-panel">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 col-lg-3 col-sm-5">
+							<div class="ft-contact-items">
+								<div class="ft-phone">
+									<i class="fa fa-phone" aria-hidden="true"></i>
+									8 (000) 000-00-00
+								</div>
+								<div class="ft-mail">
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+									mail@example.ru
+								</div>
+							</div>
+						</div>
+						<div class="col-md-10 col-lg-9 col-sm-7">
+							<div class="ft-info-items">
+								<div class="ft-descr-text">
+									<span>Эксклюзивный представитель ТМ </span>
+									<span>на територии Украины  компания ООО «Унгерт Материэлз»</span>
+								</div>
+								<div class="ft-logo-item ps-left">
+									<div class="img-wrap">
+										<img src="img/ft-img1.png" alt="">
+									</div>
+									<span>
+										Керамическая <br> плитка
+									</span>
+								</div>
+								<div class="ft-logo-item ps-right">
+									<div class="img-wrap">
+										<img src="img/ft-img2.png" alt="">
+									</div>
+									<span>
+										Ламинированный <br> паркет
+									</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 hidden-lg hidden-md hidden-xs">
+							<div class="ft-descr-text">
+								Эксклюзивный представитель ТМ  на територии Украины  компания ООО «Унгерт Материэлз»
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="ft-bottom-panel">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 col-sm-3 col-xs-6">
+							<a href="index.html" class="img-wrap">
+								<img src="img/logo.jpg" alt="">
+							</a>
+						</div>
+						<div class="col-md-3 col-sm-5 col-xs-6">
+							<div class="copiright">
+								<span>© 2003 – 2016,</span> все права защищены
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+		<div class="slide-right-mnu-item phone-icon-box" href="javascript:void(0)">
+			<ul id="inline-popups">
+				<li><i class="fa fa-phone" aria-hidden="true"></i><a href="#phone-popup" class="mfp-phone">Обратный звонок</a></li>
+			</ul>
+		</div>
+		<div class="slide-right-mnu-item comment-icon-box" href="javascript:void(0)">
+			<ul>
+				<li><i class="fa fa-comments" aria-hidden="true"></i><a href="#client-popup" class="mfp-client">Клиентская поддержка</a></li>
+			</ul>
+		</div>
+		<div class="slide-right-mnu-item map-icon-box" href="javascript:void(0)">
+			<ul>
+				<li><i class="fa fa-map" aria-hidden="true"></i><a href="#shop-popup" class="mfp-shop">Найти ближайший магазин</a></li>
+			</ul>
+		</div>	
+
+		<div class="pop-up-from pop-up-width zoom-anim-dialog mfp-hide" id="phone-popup">
+			<div class="mfp-head">
+				<h3>Закажите звонок</h3>
+			</div>
+			<div class="mfp-content-inner">
+				<form>
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="">
+					<input type="hidden" name="admin_email" value="coltmone@yandex.ru">
+					<input type="hidden" name="form_subject" value="Заявка с сайта nordcreek.ru">
+					<!-- END Hidden Required Fields -->
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<div class="from-item">
+								<label>
+									<span>Имя:</span>
+									<input type="text" name="Имя" placeholder="Матвей" required>
+								</label>
+							</div>
+							<div class="from-item">
+								<label>
+									<span>Фамилия:</span>
+									<input type="text" name="Фамилия" placeholder="Матвей" required>
+								</label>
+							</div>
+							<div class="from-item">
+								<label>
+									<span>Телефон:</span>
+									<input type="text" name="Телефон" placeholder="+380" required>
+								</label>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="from-item">
+								<label>
+									<span>Желаемое время для связи:</span>
+									<input type="text" name="Желаемое время для связи:" placeholder="10:00 – 11:00" required>
+								</label>
+							</div>
+							<div class="from-item">
+								<label>
+									<span>Город расположения дилера:</span>
+									<select name="Город расположения дилера:" required>
+										<option selected>Киев</option>
+										<option>Киев</option>
+										<option>Киев</option>
+										<option>Киев</option>
+										<option>Киев</option>
+									</select>
+								</label>
+							</div>
+							<div class="from-item">
+								<label>
+									<span>Дилер:</span>
+									<input type="text" name="Дилер:" placeholder="ungert materials" required>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="from-item">
+								<label>
+									<span>Тема сообщения:</span>
+									<textarea name="Тема сообщения:" placeholder="Матвей" required></textarea>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="personal-data-acept">
+								<label><input type="checkbox" name="" required></label>
+								Я подтверждаю согласие на обработку персональных данных
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="form-btn">
+								<button type="submit" class="main-btn">Отправить</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<button class="mfp-close" title="Close (Esc)"><i class="fa fa-times" aria-hidden="true"></i></button>
+		</div>	
+
+		<div class="pop-up-from pop-up-width zoom-anim-dialog mfp-hide" id="client-popup">
+			<div class="mfp-head">
+				<h3>Клиентская поддержка</h3>
+			</div>
+			<div class="pop-up-descr">
+				<p>
+					Уважаемые дамы и господа! Позвольте поблагодарить вас за интерес, проявленный марке Lexus, 
+					а также за то, что вы нашли время, чтобы связаться с нами. Мы приветствуем стремление клиентов 
+					обращаться к нам и с большим вниманием относимся к каждому мнению. Благодаря анализу 
+					мнений наших клиентов, а также чуткому и быстрому реагированию на ваши запросы 
+					мы постоянно совершенствуем качество автомобилей и предоставляемых услуг. 
+				</p>
+				<div class="pop-up-phone-wrap">
+					<i class="fa fa-phone" aria-hidden="true"></i>
+					8 (000) 000-00-00
+				</div>
+			</div>
+			<div class="mfp-content-inner">
+				<form>
+					<!-- Hidden Required Fields -->
+					<input type="hidden" name="project_name" value="">
+					<input type="hidden" name="admin_email" value="coltmone@yandex.ru">
+					<input type="hidden" name="form_subject" value="Заявка с сайта nordcreek.ru">
+					<!-- END Hidden Required Fields -->
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<div class="from-item">
+								<label>
+									<span>Имя:</span>
+									<input type="text" name="Имя" placeholder="Матвей" required>
+								</label>
+							</div>
+							<div class="from-item">
+								<label>
+									<span>Отчество:</span>
+									<input type="text" name="Отчество" placeholder="Сергеевич" required>
+								</label>
+							</div>
+							<div class="from-item">
+								<label>
+									<span>Фамилия:</span>
+									<input type="text" name="Фамилия" placeholder="Ананьев" required>
+								</label>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="from-item">
+								<label>
+									<span>e-mail:</span>
+									<input type="text" name="E-mail" placeholder="mail@matveyan.ru" required>
+								</label>
+							</div>
+							<div class="from-item">
+								<label>
+									<span>Телефон:</span>
+									<input type="text" name="Телефон:" placeholder="+380" required>
+								</label>
+							</div>
+							<div class="from-item">
+								<label>
+									<span>Город расположения дилера:</span>
+									<select name="Город расположения дилера:" required>
+										<option selected>Киев</option>
+										<option>Киев</option>
+										<option>Киев</option>
+										<option>Киев</option>
+										<option>Киев</option>
+									</select>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12 col-sm-12">
+							<div class="from-item">
+								<label>
+									<span>Тема сообщения:</span>
+									<textarea name="Тема сообщения:" placeholder="Матвей" required></textarea>
+								</label>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="personal-data-acept">
+								<label><input type="checkbox" name="" required></label>
+								Я подтверждаю согласие на обработку персональных данных
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6 col-xs-12">
+							<div class="form-btn">
+								<button type="submit" class="main-btn">Отправить</button>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<button class="mfp-close" title="Close (Esc)"><i class="fa fa-times" aria-hidden="true"></i></button>
+		</div>
+
+		<div class="pop-up-from pop-up-custom-width zoom-anim-dialog mfp-hide" id="shop-popup">
+			<div class="mfp-head">
+				<h3>Найти ближайший магазин</h3>
+			</div>
+			<div class="mfp-content-inner">
+				<form>
+					<div class="row">
+						<div class="col-md-6 col-sm-6">
+							<div class="from-item">
+								<label>
+									<span> область:</span>
+									<select name="Город расположения дилера:" required>
+										<option selected>Киевская</option>
+										<option>Киевская</option>
+										<option>Киевская</option>
+										<option>Киевская</option>
+										<option>Киевская</option>
+									</select>
+								</label>
+							</div>
+						</div>
+						<div class="col-md-6 col-sm-6">
+							<div class="from-item">
+								<label>
+									<span>Город:</span>
+									<select name="Город расположения дилера:" required>
+										<option selected>Киев</option>
+										<option>Киев</option>
+										<option>Киев</option>
+										<option>Киев</option>
+										<option>Киев</option>
+									</select>
+								</label>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div class="result-search-box">
+				<div class="res-of-number">
+					Найдено <span>9</span> магазинов:
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="res-item">
+							<h4>Ungert Materials</h4>
+							<p>
+								Киев, проспект 100-лет 
+								Киеву 72, офис 834
+							</p>
+							<ul>
+								<li class="res-time"><i class="fa fa-clock-o" aria-hidden="true"></i><span>09:00–19:00</span></li>
+								<li class="res-phone"><i class="fa fa-phone" aria-hidden="true"></i><span>8 (000) 000-00-00</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="res-item">
+							<h4>Ungert Materials</h4>
+							<p>
+								Киев, проспект 100-лет 
+								Киеву 72, офис 834
+							</p>
+							<ul>
+								<li class="res-time"><i class="fa fa-clock-o" aria-hidden="true"></i><span>09:00–19:00</span></li>
+								<li class="res-phone"><i class="fa fa-phone" aria-hidden="true"></i><span>8 (000) 000-00-00</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="res-item">
+							<h4>Ungert Materials</h4>
+							<p>
+								Киев, проспект 100-лет 
+								Киеву 72, офис 834
+							</p>
+							<ul>
+								<li class="res-time"><i class="fa fa-clock-o" aria-hidden="true"></i><span>09:00–19:00</span></li>
+								<li class="res-phone"><i class="fa fa-phone" aria-hidden="true"></i><span>8 (000) 000-00-00</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="res-item">
+							<h4>Ungert Materials</h4>
+							<p>
+								Киев, проспект 100-лет 
+								Киеву 72, офис 834
+							</p>
+							<ul>
+								<li class="res-time"><i class="fa fa-clock-o" aria-hidden="true"></i><span>09:00–19:00</span></li>
+								<li class="res-phone"><i class="fa fa-phone" aria-hidden="true"></i><span>8 (000) 000-00-00</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="res-item">
+							<h4>Ungert Materials</h4>
+							<p>
+								Киев, проспект 100-лет 
+								Киеву 72, офис 834
+							</p>
+							<ul>
+								<li class="res-time"><i class="fa fa-clock-o" aria-hidden="true"></i><span>09:00–19:00</span></li>
+								<li class="res-phone"><i class="fa fa-phone" aria-hidden="true"></i><span>8 (000) 000-00-00</span></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="res-item">
+							<h4>Ungert Materials</h4>
+							<p>
+								Киев, проспект 100-лет 
+								Киеву 72, офис 834
+							</p>
+							<ul>
+								<li class="res-time"><i class="fa fa-clock-o" aria-hidden="true"></i><span>09:00–19:00</span></li>
+								<li class="res-phone"><i class="fa fa-phone" aria-hidden="true"></i><span>8 (000) 000-00-00</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="mfp-close" title="Close (Esc)"><i class="fa fa-times" aria-hidden="true"></i></button>
+		</div>
+
+		<div class="pop-up-from zoom-anim-dialog mfp-hide" id="authentication-popup">
+			<div class="mfp-head">
+				<h3>Войти в личный кабинет</h3>
+			</div>
+			<div class="mfp-content-inner">
+				<form>
+					<div class="from-item">
+						<label>
+							<span>ваш e-mail:</span>
+							<input type="text" name="E-mail" required>
+						</label>
+					</div>
+					<div class="from-item">
+						<label>
+							<span>ваш пароль:</span>
+							<input type="password" name="pas" required>
+						</label>
+					</div>
+					<div class="form-btn">
+						<button type="submit" class="main-btn">Войти</button>
+					</div>
+				</form>
+			</div>
+			<div class="log-bottom-info">
+				<a href="privateoffice.html">Напомнить пароль</a>
+				<a href="registration.html">Регистрация</a>
+			</div>
+			<button class="mfp-close" title="Close (Esc)"><i class="fa fa-times" aria-hidden="true"></i></button>
+		</div>
+
+
+	</div>
+	<div class="layer-basked-open"></div>
+
+	<!-- Optimized loading JS Start -->
+	<script>var scr = {"scripts":[
+		{"src" : "js/libs.min.js", "async" : false},
+		{"src" : "js/common.js", "async" : false}
+		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+	</script>
+	<!-- Optimized loading JS End -->
+
+</body>
+</html>
