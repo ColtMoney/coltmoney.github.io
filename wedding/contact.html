@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Wedding</title>
+
+    <!-- STYLESHEETS -->
+    <link href="assets/swiper/dist/css/swiper.min.css" rel="stylesheet" />
+    <link href="css/fonts.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <!-- STYLESHEETS END -->
+
+</head>
+
+<body>
+
+
+    <header>
+        <div class="container">
+            <a class="header-logo" href="index.html"><img src="img/logo.svg" alt="Alternate Text" /></a>
+            <ul class="header-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+            <div class="menu_mob">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+<section class="s-contact-top-banenr">
+	<div class="container">
+		<h1>Book us for <span>your wedding</span></h1>
+	</div>
+</section>
+
+
+<section class="s-contact-info">
+	<div class="container">
+
+		<div class="contact-top-info">
+			<div class="contact-title">
+				<h2 class="s-title text-left">Send message</h2>
+			</div>
+			<div class="contact-fedback">
+				<ul>
+					<li class="email"><img src="img/envelope-icon.svg" alt=""><a href="#">test@wedding.com</a></li>
+					<li class="address"><img src="img/location-icon.svg" alt="">San Fancisco, USA</li>
+					<li class="phone"><img src="img/phone-call.svg" alt=""><a href="#">+280 548 789 000</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="contact-two-col">
+			<div class="left-col">
+				<div class="s-tetle-descr">
+					<p>
+						There is beauty to be found in every culture, watch some of our recent work where each story is authentic and unique.
+					</p>
+				</div>
+				<form action="#" class="contact-form">
+					<div class="form-group">
+						<div class="two-input">
+							<input type="text" name="first-name" placeholder="First name">
+						</div>
+						<div class="two-input">
+							<input type="text" name="last-name" placeholder="Last name">
+						</div>
+					</div>
+					<div class="form-group">
+						<input type="email" name="your-email" placeholder="Your email">
+					</div>
+					<div class="form-group">
+						<input type="tel" name="phone" placeholder="Your phone number">
+					</div>
+					<div class="form-group">
+						<textarea name="message" placeholder="Your Message"></textarea>
+					</div>
+					<div class="form-button">
+						<button class="btn">Send message</button>
+					</div>
+				</form>
+			</div>
+			<div class="right-col">
+				<div id="map"></div>
+			</div>
+		</div>
+
+	</div>
+</section>
+
+
+<script>
+	function initMap() {
+		var uluru = {
+			lat: -25.344,
+			lng: 131.036
+		};
+		var map = new google.maps.Map(document.getElementById('map'), {
+			zoom: 4,
+			center: uluru,
+			styles: [{
+				"featureType": "water",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#e9e9e9"
+				}, {
+					"lightness": 17
+				}]
+			}, {
+				"featureType": "landscape",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#f5f5f5"
+				}, {
+					"lightness": 20
+				}]
+			}, {
+				"featureType": "road.highway",
+				"elementType": "geometry.fill",
+				"stylers": [{
+					"color": "#ffffff"
+				}, {
+					"lightness": 17
+				}]
+			}, {
+				"featureType": "road.highway",
+				"elementType": "geometry.stroke",
+				"stylers": [{
+					"color": "#ffffff"
+				}, {
+					"lightness": 29
+				}, {
+					"weight": 0.2
+				}]
+			}, {
+				"featureType": "road.arterial",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#ffffff"
+				}, {
+					"lightness": 18
+				}]
+			}, {
+				"featureType": "road.local",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#ffffff"
+				}, {
+					"lightness": 16
+				}]
+			}, {
+				"featureType": "poi",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#f5f5f5"
+				}, {
+					"lightness": 21
+				}]
+			}, {
+				"featureType": "poi.park",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#dedede"
+				}, {
+					"lightness": 21
+				}]
+			}, {
+				"elementType": "labels.text.stroke",
+				"stylers": [{
+					"visibility": "on"
+				}, {
+					"color": "#ffffff"
+				}, {
+					"lightness": 16
+				}]
+			}, {
+				"elementType": "labels.text.fill",
+				"stylers": [{
+					"saturation": 36
+				}, {
+					"color": "#333333"
+				}, {
+					"lightness": 40
+				}]
+			}, {
+				"elementType": "labels.icon",
+				"stylers": [{
+					"visibility": "off"
+				}]
+			}, {
+				"featureType": "transit",
+				"elementType": "geometry",
+				"stylers": [{
+					"color": "#f2f2f2"
+				}, {
+					"lightness": 19
+				}]
+			}, {
+				"featureType": "administrative",
+				"elementType": "geometry.fill",
+				"stylers": [{
+					"color": "#fefefe"
+				}, {
+					"lightness": 20
+				}]
+			}, {
+				"featureType": "administrative",
+				"elementType": "geometry.stroke",
+				"stylers": [{
+					"color": "#fefefe"
+				}, {
+					"lightness": 17
+				}, {
+					"weight": 1.2
+				}]
+			}]
+		});
+		var marker = new google.maps.Marker({
+			position: uluru,
+			map: map,
+			icon: './img/marker.svg'
+		});
+	}
+</script>
+
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap">
+</script>
+
+<a href="#" class="scroll-top" id="scroll-top"></a>
+
+<footer>
+		<div class="container">
+				<a class="footer-logo" href="index.html"><img src="img/logo-footer.svg" alt="Alternate Text" /></a>
+				<ul class="footer-menu">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="portfolio.html">Portfolio</a></li>
+						<li><a href="pricing.html">Pricing</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="contact.html">Contact us</a></li>
+				</ul>
+		</div>
+</footer>
+
+<!-- SCRIPTS -->
+<script src="assets/jquery/jquery.min.js"></script>
+<script src="assets/swiper/dist/js/swiper.js"></script>
+<script src="js/common.js"></script>
+
+<!-- SCRIPTS END -->
+</body>
+
+</html>
