@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Auto</title>
+
+	<!-- STYLESHEETS -->
+	<link href="assets/swiper/dist/css/swiper.min.css" rel="stylesheet" />
+	<link href="assets/select2/select2.min.css" rel="stylesheet" />
+	<link href="assets/datepicker/datepicker.min.css" rel="stylesheet" />
+	<link href="assets/dataTables/datatables.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link href="css/fonts.css" rel="stylesheet" />
+	<link href="css/greed.css" rel="stylesheet" />
+	<link href="css/reset.css" rel="stylesheet" />
+	
+	<link href="css/main.css" rel="stylesheet" />
+	<link href="css/media.css" rel="stylesheet" />
+	<!-- STYLESHEETS END -->
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<a href="main.html" class="header_logo">
+				<img src="img/logo.png" alt="">
+			</a>
+			<div class="right header-menu">
+				<a href="how-it-works.html">How it works</a>
+				<a href="faq.html">FAQs</a>
+				<a href="calculator.html">Calculator</a>
+				<a href="sitemap.html">Sitemap</a>
+				<a href="login.html" class="login_link">
+					<svg width="22" height="22" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg"><path d="M11.9233 15.2914C11.6545 15.5602 11.6545 15.9954 11.9233 16.2635C12.1922 16.5323 12.6273 16.5323 12.8955 16.2635L17.6385 11.5198C17.7815 11.3767 17.8427 11.1863 17.833 10.9993C17.8427 10.8116 17.7815 10.6219 17.6385 10.4789L12.8955 5.73582C12.6273 5.467 12.1915 5.467 11.9233 5.73582C11.6545 6.00463 11.6545 6.43982 11.9233 6.70792L15.5279 10.3125H0.6875C0.308 10.3125 0 10.6205 0 11C0 11.3795 0.308 11.6875 0.6875 11.6875H15.5279L11.9233 15.2914ZM19.25 1.375H5.5C3.98132 1.375 2.75 2.60632 2.75 4.125V6.875H4.125V4.125C4.125 3.366 4.74032 2.75 5.5 2.75H19.25C20.0097 2.75 20.625 3.366 20.625 4.125V17.875C20.625 18.634 20.0097 19.25 19.25 19.25H5.5C4.74032 19.25 4.125 18.6347 4.125 17.875V15.125H2.75V17.875C2.75 19.3937 3.98132 20.625 5.5 20.625H19.25C20.7687 20.625 22 19.3937 22 17.875V4.125C22 2.60632 20.7687 1.375 19.25 1.375Z" stroke-width="0.9"/></svg>
+					Login
+				</a>
+				<form>
+					<input type="text" class="search_input" placeholder="search">
+				</form>
+			</div>
+			<div class="menu_mob">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</header>
+
+<section class="s-top-panel">
+	<div class="container">
+		<div class="left-side">
+			<div class="logo-with-text">
+				<div class="img-wrap">
+					<img src="img/logo-car.png" alt="">
+				</div>
+				<h3>You are looking for</h3>
+			</div>
+			<div class="select-groups">
+				<div class="select-style">
+					<select class="select-basic-hide-search">
+						<option value="" selected>used</option>
+						<option value="">new</option>
+					</select>
+				</div>
+				<div class="select-style">
+					<select class="select-basic-single">
+						<option value="">Ferrari</option>
+						<option value="">Alfa Romeo</option>
+						<option value="">Aston Martin</option>
+						<option value="">Bentley</option>
+						<option value="">Bugatti</option>
+						<option value="">Cadillac</option>
+						<option value="">Alfa Romeo</option>
+						<option value="">Chevrolet</option>
+						<option value="">Chrysler</option>
+						<option value="">Dodge</option>
+						<option value="">Fiat</option>
+						<option value="">Mustang</option>
+						<option value="">Honda</option>
+						<option value="">Hyundai</option>
+						<option value="">Lamborghini</option>
+						<option value="">Lotus</option>
+						<option value="">Maserati</option>
+						<option value="">Mazda</option>
+						<option value="">Mercedes</option>
+						<option value="">Mini</option>
+						<option value="">Mitsubishi</option>
+						<option value="">Volvo</option>
+						<option value="">Wolksvagen</option>
+						<option value="">Ford</option>
+					</select>
+				</div>
+			</div>
+		</div>
+		<div class="right-side">
+			<button class="btn-secondary">Filter results</button>
+		</div>
+	</div>
+</section>
+
+<section class="s-single-catalog s-wide">
+	<div class="container">
+		<div class="single-product-top-block">
+			<div class="single-product-slider-wrap box-style">
+				<!-- Swiper -->
+				<div class="swiper-container single-product-slider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/single-slide-img-1.png" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/single-slide-img-1.png" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/single-slide-img-1.png" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/single-slide-img-1.png" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/single-slide-img-1.png" alt="">
+						</div>
+						<div class="swiper-slide">
+							<img src="img/single-slide-img-1.png" alt="">
+						</div>
+					</div>
+
+					<div class="single-slider-bottom-actions">
+						<!-- Add Pagination -->
+						<div class="swiper-pagination"></div>
+						<!-- Add Arrows -->
+						<div class="single-buttons-slider">
+							<div class="single-button-prev">Previous</div>
+							<div class="single-button-next">Next</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="single-product-details box-style">
+				<div class="header-single-top-details">
+					<span>Lamborghini</span>
+					<h3>Lamborghini Huracan</h3>
+				</div>
+				<div class="content-single-product-details">
+					<ul>
+						<li>
+							<span>Mileage</span>
+							<strong>31k</strong>
+						</li>
+						<li>
+							<span>Pickup Location</span>
+							<strong>San Diego, CA</strong>
+						</li>
+						<li>
+							<span>Year</span>
+							<strong>2017</strong>
+						</li>
+					</ul>
+				</div>
+				<div class="footer-single-product-details">
+					<a href="#" class="btn">Rent this car</a>
+					<div class="catalog-info-right">
+						<div class="price"><span>$</span><strong>355</strong></div>
+						<span class="price-descr">as low as /mo</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="single-product-overview-block box-style">
+			<div class="overview-top-panel">
+				<h3>Overview</h3>
+			</div>
+			<ul>
+				<li>
+					<span>Exterior Color:</span>
+					<strong>Ingot Silver</strong>
+				</li>
+				<li>
+					<span>Engine:</span>
+					<strong>4 Cylinder 2.0L</strong>
+				</li>
+				<li>
+					<span>Drivetrain:</span>
+					<strong>Front-Wheel Drive</strong>
+				</li>
+				<li>
+					<span>Stock:</span>
+					<strong>51687</strong>
+				</li>
+				<li>
+					<span>Vin:</span>
+					<strong>1FADP3F21HL285718</strong>
+				</li>
+			</ul>
+		</div>
+		<div class="car-trade-in">
+			<div class="top-title">
+				<h3>Car Trade-In valuation</h3>
+			</div>
+			<div class="valuation-flex">
+				<div class="valuation-wrap">
+					<div class="valuation-box">
+						<span class="low">Low</span>
+						<div class="img-range">
+							<img src="img/range-img.svg" alt="">
+						</div>
+						<span class="high">High</span>
+						<div class="img-elipse">
+							<img src="img/ellipse-img.svg" alt="">
+						</div>
+						<div class="valuation-text-box">
+							<div class="valuation-arrow">
+								<svg width="40" height="22" viewBox="0 0 40 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M10.8035 2.98755L2.36554 11.4255" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M2.36536 11.3406L10.8033 19.7785" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M37.17 11.3406L2.4503 11.3406" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M28.7321 2.98755L37.17 11.4255" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M37.1702 11.3406L28.7322 19.7785" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M2.36548 11.3406L37.0852 11.3406" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</div>
+							<span class="trade-text">Trade-In Value</span>
+							<div class="price"><span>$</span><strong>25.345</strong></div>
+						</div>
+					</div>
+				</div>
+				<div class="valuation-form-wrap">
+					<form action="#">
+						<div class="add-card-group">
+							<div class="add_card_row">
+								<input type="text" class="grey_input" placeholder="Your car make">
+							</div>
+							<div class="add_card_row">
+								<select class="grey_input">
+									<option value="">Your car year</option>
+									<option value="">1</option>
+									<option value="">2</option>
+									<option value="">3</option>
+								</select>
+							</div>
+						</div>
+						<div class="add-card-group">
+							<div class="add_card_row">
+								<input type="text" class="grey_input" placeholder="Your car condition">
+							</div>
+							<div class="add_card_row">
+								<button class="btn">Get my rate now</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="similar-cars">
+			<h2 class="s-title">Similar Cars You Might Like</h2>
+			<div class="similar-cars-items">
+				<div class="catalog-item box-style wow" data-wow-duration="1s">
+					<a href="single-catalog.html">
+						<div class="img-wrap">
+							<img src="img/catalog-img-7.png" alt="">
+						</div>
+						<div class="catalog-info-box">
+							<div class="catalog-info-left">
+								<span>2017 Nissan</span>
+								<h3>Versa Sedan</h3>
+							</div>
+							<div class="catalog-info-right">
+								<div class="price"><span>$</span><strong>355</strong></div>
+								<span class="price-descr">as low as /mo</span>
+							</div>
+						</div>
+						<div class="catalog-details-box">
+							<div class="catalog-details-item">
+								<div class="icon">
+									<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6.99999 0L0.5 12L1.01221 12H12.9878L13.5 12L6.99999 0ZM6.99999 2.01091L8.80736 5.44951H6.99999C6.22616 5.44951 5.5966 6.07907 5.5966 6.8529C5.5966 7.62672 6.22616 8.25628 6.99999 8.25628H7.93558C8.19352 8.25628 8.40337 8.46613 8.40337 8.72408C8.40337 8.98202 8.19352 9.19187 7.93558 9.19187H5.3627C4.58888 9.19187 3.95932 9.82143 3.95932 10.5953C3.95932 10.7598 3.98802 10.9176 4.04025 11.0644H2.24136L6.99999 2.01091ZM5.3627 11.0644V11.0631C5.10476 11.0631 4.89491 10.8532 4.89491 10.5953C4.89491 10.3373 5.10476 10.1275 5.3627 10.1275H7.93558C8.7094 10.1275 9.33896 9.4979 9.33896 8.72408C9.33896 7.95025 8.7094 7.32069 7.93558 7.32069H6.99999C6.74204 7.32069 6.53219 7.11084 6.53219 6.8529C6.53219 6.59495 6.74204 6.3851 6.99999 6.3851H9.29911L11.7586 11.0644H5.3627Z" fill="#D3D2E2" />
+									</svg>
+								</div>
+								<span>Mileage</span>
+								<strong>31k</strong>
+							</div>
+							<div class="catalog-details-item">
+								<div class="icon">
+									<svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11.9998 5.55166C11.9998 5.31562 11.9465 5.09017 11.8503 4.88392C11.8404 4.83149 11.8291 4.77913 11.8149 4.72603L10.7725 2.14278L10.7655 2.11953C10.4008 1.03361 9.88182 0.0285645 8.56598 0.0285645H3.53498C2.1867 0.0285645 1.71026 1.05851 1.33756 2.1135L0.247241 4.70305C0.0896156 4.9556 0 5.2445 0 5.55166V6.35549C0 6.47977 0.0146902 6.60134 0.0426231 6.71843C0.0154676 6.78917 0 6.86541 0 6.94578V9.33656C0 9.68714 0.284207 9.9714 0.634789 9.9714H1.95208C2.30248 9.9714 2.58668 9.68714 2.58668 9.33656V8.14099H9.4884V9.33656C9.4884 9.68714 9.77266 9.9714 10.1233 9.9714H11.3651C11.7158 9.9714 12 9.68714 12 9.33656V6.94551C12 6.86544 11.9844 6.78885 11.9574 6.71835C11.9853 6.60107 12 6.47963 12 6.35538V5.55168H11.9998V5.55166ZM2.11116 2.37286C2.52621 1.20185 2.85998 0.844381 3.53498 0.844381H8.56568C9.23572 0.844381 9.60882 1.24308 9.98795 2.36782L10.7486 3.90927C10.5002 3.8173 10.2269 3.76626 9.93975 3.76626H2.06009C1.80153 3.76626 1.55446 3.80784 1.32649 3.88308L2.11116 2.37286ZM2.76457 6.66077H1.37469C1.12444 6.66077 0.921489 6.45762 0.921489 6.20741C0.921489 5.95711 1.12444 5.7541 1.37469 5.7541H2.76457C3.01492 5.7541 3.21788 5.95711 3.21788 6.20741C3.21788 6.45762 3.01479 6.66077 2.76457 6.66077ZM7.6744 6.56997H4.44148C4.28297 6.56997 4.15454 6.44146 4.15454 6.28303C4.15454 6.12431 4.28297 5.99585 4.44148 5.99585H7.6744C7.8331 5.99585 7.9615 6.12431 7.9615 6.28303C7.9615 6.44146 7.8331 6.56997 7.6744 6.56997ZM10.5901 6.66077H9.20028C8.94982 6.66077 8.74698 6.45762 8.74698 6.20741C8.74698 5.95711 8.94998 5.7541 9.20028 5.7541H10.5901C10.8406 5.7541 11.0436 5.95711 11.0436 6.20741C11.0436 6.45762 10.8406 6.66077 10.5901 6.66077Z" fill="#D3D2E2" />
+									</svg>
+								</div>
+								<span>Transmission</span>
+								<strong>Manual</strong>
+							</div>
+							<div class="catalog-details-item">
+								<div class="icon">
+									<svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M5 0C2.46699 0 0.40625 2.06074 0.40625 4.59375C0.40625 5.40455 0.620469 6.20168 1.02573 6.89895C1.1202 7.06151 1.22581 7.21992 1.33967 7.3698L4.80041 12H5.19957L8.66033 7.36983C8.77416 7.21992 8.87977 7.06153 8.97427 6.89897C9.37953 6.20168 9.59375 5.40455 9.59375 4.59375C9.59375 2.06074 7.53301 0 5 0ZM5 6.11719C4.15998 6.11719 3.47656 5.43377 3.47656 4.59375C3.47656 3.75373 4.15998 3.07031 5 3.07031C5.84002 3.07031 6.52344 3.75373 6.52344 4.59375C6.52344 5.43377 5.84002 6.11719 5 6.11719Z" fill="#D3D2E2" />
+									</svg>
+								</div>
+								<span>Location</span>
+								<strong>990 mi</strong>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="catalog-item box-style wow" data-wow-duration="1.3s">
+					<a href="single-catalog.html">
+						<div class="img-wrap">
+							<img src="img/catalog-img-8.png" alt="">
+						</div>
+						<div class="catalog-info-box">
+							<div class="catalog-info-left">
+								<span>2017 Nissan</span>
+								<h3>Versa Sedan</h3>
+							</div>
+							<div class="catalog-info-right">
+								<div class="price"><span>$</span><strong>355</strong></div>
+								<span class="price-descr">as low as /mo</span>
+							</div>
+						</div>
+						<div class="catalog-details-box">
+							<div class="catalog-details-item">
+								<div class="icon">
+									<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6.99999 0L0.5 12L1.01221 12H12.9878L13.5 12L6.99999 0ZM6.99999 2.01091L8.80736 5.44951H6.99999C6.22616 5.44951 5.5966 6.07907 5.5966 6.8529C5.5966 7.62672 6.22616 8.25628 6.99999 8.25628H7.93558C8.19352 8.25628 8.40337 8.46613 8.40337 8.72408C8.40337 8.98202 8.19352 9.19187 7.93558 9.19187H5.3627C4.58888 9.19187 3.95932 9.82143 3.95932 10.5953C3.95932 10.7598 3.98802 10.9176 4.04025 11.0644H2.24136L6.99999 2.01091ZM5.3627 11.0644V11.0631C5.10476 11.0631 4.89491 10.8532 4.89491 10.5953C4.89491 10.3373 5.10476 10.1275 5.3627 10.1275H7.93558C8.7094 10.1275 9.33896 9.4979 9.33896 8.72408C9.33896 7.95025 8.7094 7.32069 7.93558 7.32069H6.99999C6.74204 7.32069 6.53219 7.11084 6.53219 6.8529C6.53219 6.59495 6.74204 6.3851 6.99999 6.3851H9.29911L11.7586 11.0644H5.3627Z" fill="#D3D2E2" />
+									</svg>
+								</div>
+								<span>Mileage</span>
+								<strong>31k</strong>
+							</div>
+							<div class="catalog-details-item">
+								<div class="icon">
+									<svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11.9998 5.55166C11.9998 5.31562 11.9465 5.09017 11.8503 4.88392C11.8404 4.83149 11.8291 4.77913 11.8149 4.72603L10.7725 2.14278L10.7655 2.11953C10.4008 1.03361 9.88182 0.0285645 8.56598 0.0285645H3.53498C2.1867 0.0285645 1.71026 1.05851 1.33756 2.1135L0.247241 4.70305C0.0896156 4.9556 0 5.2445 0 5.55166V6.35549C0 6.47977 0.0146902 6.60134 0.0426231 6.71843C0.0154676 6.78917 0 6.86541 0 6.94578V9.33656C0 9.68714 0.284207 9.9714 0.634789 9.9714H1.95208C2.30248 9.9714 2.58668 9.68714 2.58668 9.33656V8.14099H9.4884V9.33656C9.4884 9.68714 9.77266 9.9714 10.1233 9.9714H11.3651C11.7158 9.9714 12 9.68714 12 9.33656V6.94551C12 6.86544 11.9844 6.78885 11.9574 6.71835C11.9853 6.60107 12 6.47963 12 6.35538V5.55168H11.9998V5.55166ZM2.11116 2.37286C2.52621 1.20185 2.85998 0.844381 3.53498 0.844381H8.56568C9.23572 0.844381 9.60882 1.24308 9.98795 2.36782L10.7486 3.90927C10.5002 3.8173 10.2269 3.76626 9.93975 3.76626H2.06009C1.80153 3.76626 1.55446 3.80784 1.32649 3.88308L2.11116 2.37286ZM2.76457 6.66077H1.37469C1.12444 6.66077 0.921489 6.45762 0.921489 6.20741C0.921489 5.95711 1.12444 5.7541 1.37469 5.7541H2.76457C3.01492 5.7541 3.21788 5.95711 3.21788 6.20741C3.21788 6.45762 3.01479 6.66077 2.76457 6.66077ZM7.6744 6.56997H4.44148C4.28297 6.56997 4.15454 6.44146 4.15454 6.28303C4.15454 6.12431 4.28297 5.99585 4.44148 5.99585H7.6744C7.8331 5.99585 7.9615 6.12431 7.9615 6.28303C7.9615 6.44146 7.8331 6.56997 7.6744 6.56997ZM10.5901 6.66077H9.20028C8.94982 6.66077 8.74698 6.45762 8.74698 6.20741C8.74698 5.95711 8.94998 5.7541 9.20028 5.7541H10.5901C10.8406 5.7541 11.0436 5.95711 11.0436 6.20741C11.0436 6.45762 10.8406 6.66077 10.5901 6.66077Z" fill="#D3D2E2" />
+									</svg>
+								</div>
+								<span>Transmission</span>
+								<strong>Manual</strong>
+							</div>
+							<div class="catalog-details-item">
+								<div class="icon">
+									<svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M5 0C2.46699 0 0.40625 2.06074 0.40625 4.59375C0.40625 5.40455 0.620469 6.20168 1.02573 6.89895C1.1202 7.06151 1.22581 7.21992 1.33967 7.3698L4.80041 12H5.19957L8.66033 7.36983C8.77416 7.21992 8.87977 7.06153 8.97427 6.89897C9.37953 6.20168 9.59375 5.40455 9.59375 4.59375C9.59375 2.06074 7.53301 0 5 0ZM5 6.11719C4.15998 6.11719 3.47656 5.43377 3.47656 4.59375C3.47656 3.75373 4.15998 3.07031 5 3.07031C5.84002 3.07031 6.52344 3.75373 6.52344 4.59375C6.52344 5.43377 5.84002 6.11719 5 6.11719Z" fill="#D3D2E2" />
+									</svg>
+								</div>
+								<span>Location</span>
+								<strong>990 mi</strong>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="catalog-item box-style wow" data-wow-duration="1.6s">
+					<a href="single-catalog.html">
+						<div class="img-wrap">
+							<img src="img/catalog-img-9.png" alt="">
+						</div>
+						<div class="catalog-info-box">
+							<div class="catalog-info-left">
+								<span>2017 Nissan</span>
+								<h3>Versa Sedan</h3>
+							</div>
+							<div class="catalog-info-right">
+								<div class="price"><span>$</span><strong>355</strong></div>
+								<span class="price-descr">as low as /mo</span>
+							</div>
+						</div>
+						<div class="catalog-details-box">
+							<div class="catalog-details-item">
+								<div class="icon">
+									<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6.99999 0L0.5 12L1.01221 12H12.9878L13.5 12L6.99999 0ZM6.99999 2.01091L8.80736 5.44951H6.99999C6.22616 5.44951 5.5966 6.07907 5.5966 6.8529C5.5966 7.62672 6.22616 8.25628 6.99999 8.25628H7.93558C8.19352 8.25628 8.40337 8.46613 8.40337 8.72408C8.40337 8.98202 8.19352 9.19187 7.93558 9.19187H5.3627C4.58888 9.19187 3.95932 9.82143 3.95932 10.5953C3.95932 10.7598 3.98802 10.9176 4.04025 11.0644H2.24136L6.99999 2.01091ZM5.3627 11.0644V11.0631C5.10476 11.0631 4.89491 10.8532 4.89491 10.5953C4.89491 10.3373 5.10476 10.1275 5.3627 10.1275H7.93558C8.7094 10.1275 9.33896 9.4979 9.33896 8.72408C9.33896 7.95025 8.7094 7.32069 7.93558 7.32069H6.99999C6.74204 7.32069 6.53219 7.11084 6.53219 6.8529C6.53219 6.59495 6.74204 6.3851 6.99999 6.3851H9.29911L11.7586 11.0644H5.3627Z" fill="#D3D2E2" />
+									</svg>
+								</div>
+								<span>Mileage</span>
+								<strong>31k</strong>
+							</div>
+							<div class="catalog-details-item">
+								<div class="icon">
+									<svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11.9998 5.55166C11.9998 5.31562 11.9465 5.09017 11.8503 4.88392C11.8404 4.83149 11.8291 4.77913 11.8149 4.72603L10.7725 2.14278L10.7655 2.11953C10.4008 1.03361 9.88182 0.0285645 8.56598 0.0285645H3.53498C2.1867 0.0285645 1.71026 1.05851 1.33756 2.1135L0.247241 4.70305C0.0896156 4.9556 0 5.2445 0 5.55166V6.35549C0 6.47977 0.0146902 6.60134 0.0426231 6.71843C0.0154676 6.78917 0 6.86541 0 6.94578V9.33656C0 9.68714 0.284207 9.9714 0.634789 9.9714H1.95208C2.30248 9.9714 2.58668 9.68714 2.58668 9.33656V8.14099H9.4884V9.33656C9.4884 9.68714 9.77266 9.9714 10.1233 9.9714H11.3651C11.7158 9.9714 12 9.68714 12 9.33656V6.94551C12 6.86544 11.9844 6.78885 11.9574 6.71835C11.9853 6.60107 12 6.47963 12 6.35538V5.55168H11.9998V5.55166ZM2.11116 2.37286C2.52621 1.20185 2.85998 0.844381 3.53498 0.844381H8.56568C9.23572 0.844381 9.60882 1.24308 9.98795 2.36782L10.7486 3.90927C10.5002 3.8173 10.2269 3.76626 9.93975 3.76626H2.06009C1.80153 3.76626 1.55446 3.80784 1.32649 3.88308L2.11116 2.37286ZM2.76457 6.66077H1.37469C1.12444 6.66077 0.921489 6.45762 0.921489 6.20741C0.921489 5.95711 1.12444 5.7541 1.37469 5.7541H2.76457C3.01492 5.7541 3.21788 5.95711 3.21788 6.20741C3.21788 6.45762 3.01479 6.66077 2.76457 6.66077ZM7.6744 6.56997H4.44148C4.28297 6.56997 4.15454 6.44146 4.15454 6.28303C4.15454 6.12431 4.28297 5.99585 4.44148 5.99585H7.6744C7.8331 5.99585 7.9615 6.12431 7.9615 6.28303C7.9615 6.44146 7.8331 6.56997 7.6744 6.56997ZM10.5901 6.66077H9.20028C8.94982 6.66077 8.74698 6.45762 8.74698 6.20741C8.74698 5.95711 8.94998 5.7541 9.20028 5.7541H10.5901C10.8406 5.7541 11.0436 5.95711 11.0436 6.20741C11.0436 6.45762 10.8406 6.66077 10.5901 6.66077Z" fill="#D3D2E2" />
+									</svg>
+								</div>
+								<span>Transmission</span>
+								<strong>Manual</strong>
+							</div>
+							<div class="catalog-details-item">
+								<div class="icon">
+									<svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M5 0C2.46699 0 0.40625 2.06074 0.40625 4.59375C0.40625 5.40455 0.620469 6.20168 1.02573 6.89895C1.1202 7.06151 1.22581 7.21992 1.33967 7.3698L4.80041 12H5.19957L8.66033 7.36983C8.77416 7.21992 8.87977 7.06153 8.97427 6.89897C9.37953 6.20168 9.59375 5.40455 9.59375 4.59375C9.59375 2.06074 7.53301 0 5 0ZM5 6.11719C4.15998 6.11719 3.47656 5.43377 3.47656 4.59375C3.47656 3.75373 4.15998 3.07031 5 3.07031C5.84002 3.07031 6.52344 3.75373 6.52344 4.59375C6.52344 5.43377 5.84002 6.11719 5 6.11719Z" fill="#D3D2E2" />
+									</svg>
+								</div>
+								<span>Location</span>
+								<strong>990 mi</strong>
+							</div>
+						</div>
+					</a>
+				</div>
+				<div class="catalog-item box-style wow" data-wow-duration="1.9s">
+					<a href="single-catalog.html">
+						<div class="img-wrap">
+							<img src="img/catalog-img-7.png" alt="">
+						</div>
+						<div class="catalog-info-box">
+							<div class="catalog-info-left">
+								<span>2017 Nissan</span>
+								<h3>Versa Sedan</h3>
+							</div>
+							<div class="catalog-info-right">
+								<div class="price"><span>$</span><strong>355</strong></div>
+								<span class="price-descr">as low as /mo</span>
+							</div>
+						</div>
+						<div class="catalog-details-box">
+							<div class="catalog-details-item">
+								<div class="icon">
+									<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6.99999 0L0.5 12L1.01221 12H12.9878L13.5 12L6.99999 0ZM6.99999 2.01091L8.80736 5.44951H6.99999C6.22616 5.44951 5.5966 6.07907 5.5966 6.8529C5.5966 7.62672 6.22616 8.25628 6.99999 8.25628H7.93558C8.19352 8.25628 8.40337 8.46613 8.40337 8.72408C8.40337 8.98202 8.19352 9.19187 7.93558 9.19187H5.3627C4.58888 9.19187 3.95932 9.82143 3.95932 10.5953C3.95932 10.7598 3.98802 10.9176 4.04025 11.0644H2.24136L6.99999 2.01091ZM5.3627 11.0644V11.0631C5.10476 11.0631 4.89491 10.8532 4.89491 10.5953C4.89491 10.3373 5.10476 10.1275 5.3627 10.1275H7.93558C8.7094 10.1275 9.33896 9.4979 9.33896 8.72408C9.33896 7.95025 8.7094 7.32069 7.93558 7.32069H6.99999C6.74204 7.32069 6.53219 7.11084 6.53219 6.8529C6.53219 6.59495 6.74204 6.3851 6.99999 6.3851H9.29911L11.7586 11.0644H5.3627Z" fill="#D3D2E2" />
+									</svg>
+								</div>
+								<span>Mileage</span>
+								<strong>31k</strong>
+							</div>
+							<div class="catalog-details-item">
+								<div class="icon">
+									<svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M11.9998 5.55166C11.9998 5.31562 11.9465 5.09017 11.8503 4.88392C11.8404 4.83149 11.8291 4.77913 11.8149 4.72603L10.7725 2.14278L10.7655 2.11953C10.4008 1.03361 9.88182 0.0285645 8.56598 0.0285645H3.53498C2.1867 0.0285645 1.71026 1.05851 1.33756 2.1135L0.247241 4.70305C0.0896156 4.9556 0 5.2445 0 5.55166V6.35549C0 6.47977 0.0146902 6.60134 0.0426231 6.71843C0.0154676 6.78917 0 6.86541 0 6.94578V9.33656C0 9.68714 0.284207 9.9714 0.634789 9.9714H1.95208C2.30248 9.9714 2.58668 9.68714 2.58668 9.33656V8.14099H9.4884V9.33656C9.4884 9.68714 9.77266 9.9714 10.1233 9.9714H11.3651C11.7158 9.9714 12 9.68714 12 9.33656V6.94551C12 6.86544 11.9844 6.78885 11.9574 6.71835C11.9853 6.60107 12 6.47963 12 6.35538V5.55168H11.9998V5.55166ZM2.11116 2.37286C2.52621 1.20185 2.85998 0.844381 3.53498 0.844381H8.56568C9.23572 0.844381 9.60882 1.24308 9.98795 2.36782L10.7486 3.90927C10.5002 3.8173 10.2269 3.76626 9.93975 3.76626H2.06009C1.80153 3.76626 1.55446 3.80784 1.32649 3.88308L2.11116 2.37286ZM2.76457 6.66077H1.37469C1.12444 6.66077 0.921489 6.45762 0.921489 6.20741C0.921489 5.95711 1.12444 5.7541 1.37469 5.7541H2.76457C3.01492 5.7541 3.21788 5.95711 3.21788 6.20741C3.21788 6.45762 3.01479 6.66077 2.76457 6.66077ZM7.6744 6.56997H4.44148C4.28297 6.56997 4.15454 6.44146 4.15454 6.28303C4.15454 6.12431 4.28297 5.99585 4.44148 5.99585H7.6744C7.8331 5.99585 7.9615 6.12431 7.9615 6.28303C7.9615 6.44146 7.8331 6.56997 7.6744 6.56997ZM10.5901 6.66077H9.20028C8.94982 6.66077 8.74698 6.45762 8.74698 6.20741C8.74698 5.95711 8.94998 5.7541 9.20028 5.7541H10.5901C10.8406 5.7541 11.0436 5.95711 11.0436 6.20741C11.0436 6.45762 10.8406 6.66077 10.5901 6.66077Z" fill="#D3D2E2" />
+									</svg>
+								</div>
+								<span>Transmission</span>
+								<strong>Manual</strong>
+							</div>
+							<div class="catalog-details-item">
+								<div class="icon">
+									<svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M5 0C2.46699 0 0.40625 2.06074 0.40625 4.59375C0.40625 5.40455 0.620469 6.20168 1.02573 6.89895C1.1202 7.06151 1.22581 7.21992 1.33967 7.3698L4.80041 12H5.19957L8.66033 7.36983C8.77416 7.21992 8.87977 7.06153 8.97427 6.89897C9.37953 6.20168 9.59375 5.40455 9.59375 4.59375C9.59375 2.06074 7.53301 0 5 0ZM5 6.11719C4.15998 6.11719 3.47656 5.43377 3.47656 4.59375C3.47656 3.75373 4.15998 3.07031 5 3.07031C5.84002 3.07031 6.52344 3.75373 6.52344 4.59375C6.52344 5.43377 5.84002 6.11719 5 6.11719Z" fill="#D3D2E2" />
+									</svg>
+								</div>
+								<span>Location</span>
+								<strong>990 mi</strong>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<section class="s-other-models">
+	<div class="container">
+		<h2 class="s-title">Other Models</h2>
+		<div class="other-models-items">
+			<div class="catalog-item box-style wow" data-wow-duration="1s">
+				<a href="single-catalog.html">
+					<div class="img-wrap">
+						<img src="img/catalog-img-10.png" alt="">
+					</div>
+					<div class="catalog-info-box">
+						<div class="catalog-info-left">
+							<span>2017 Nissan</span>
+							<h3>Versa Sedan</h3>
+						</div>
+						<div class="catalog-info-right">
+							<div class="price"><span>$</span><strong>355</strong></div>
+							<span class="price-descr">as low as /mo</span>
+						</div>
+					</div>
+					<div class="catalog-details-box">
+						<div class="catalog-details-item">
+							<div class="icon">
+								<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.99999 0L0.5 12L1.01221 12H12.9878L13.5 12L6.99999 0ZM6.99999 2.01091L8.80736 5.44951H6.99999C6.22616 5.44951 5.5966 6.07907 5.5966 6.8529C5.5966 7.62672 6.22616 8.25628 6.99999 8.25628H7.93558C8.19352 8.25628 8.40337 8.46613 8.40337 8.72408C8.40337 8.98202 8.19352 9.19187 7.93558 9.19187H5.3627C4.58888 9.19187 3.95932 9.82143 3.95932 10.5953C3.95932 10.7598 3.98802 10.9176 4.04025 11.0644H2.24136L6.99999 2.01091ZM5.3627 11.0644V11.0631C5.10476 11.0631 4.89491 10.8532 4.89491 10.5953C4.89491 10.3373 5.10476 10.1275 5.3627 10.1275H7.93558C8.7094 10.1275 9.33896 9.4979 9.33896 8.72408C9.33896 7.95025 8.7094 7.32069 7.93558 7.32069H6.99999C6.74204 7.32069 6.53219 7.11084 6.53219 6.8529C6.53219 6.59495 6.74204 6.3851 6.99999 6.3851H9.29911L11.7586 11.0644H5.3627Z" fill="#D3D2E2" />
+								</svg>
+							</div>
+							<span>Mileage</span>
+							<strong>31k</strong>
+						</div>
+						<div class="catalog-details-item">
+							<div class="icon">
+								<svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M11.9998 5.55166C11.9998 5.31562 11.9465 5.09017 11.8503 4.88392C11.8404 4.83149 11.8291 4.77913 11.8149 4.72603L10.7725 2.14278L10.7655 2.11953C10.4008 1.03361 9.88182 0.0285645 8.56598 0.0285645H3.53498C2.1867 0.0285645 1.71026 1.05851 1.33756 2.1135L0.247241 4.70305C0.0896156 4.9556 0 5.2445 0 5.55166V6.35549C0 6.47977 0.0146902 6.60134 0.0426231 6.71843C0.0154676 6.78917 0 6.86541 0 6.94578V9.33656C0 9.68714 0.284207 9.9714 0.634789 9.9714H1.95208C2.30248 9.9714 2.58668 9.68714 2.58668 9.33656V8.14099H9.4884V9.33656C9.4884 9.68714 9.77266 9.9714 10.1233 9.9714H11.3651C11.7158 9.9714 12 9.68714 12 9.33656V6.94551C12 6.86544 11.9844 6.78885 11.9574 6.71835C11.9853 6.60107 12 6.47963 12 6.35538V5.55168H11.9998V5.55166ZM2.11116 2.37286C2.52621 1.20185 2.85998 0.844381 3.53498 0.844381H8.56568C9.23572 0.844381 9.60882 1.24308 9.98795 2.36782L10.7486 3.90927C10.5002 3.8173 10.2269 3.76626 9.93975 3.76626H2.06009C1.80153 3.76626 1.55446 3.80784 1.32649 3.88308L2.11116 2.37286ZM2.76457 6.66077H1.37469C1.12444 6.66077 0.921489 6.45762 0.921489 6.20741C0.921489 5.95711 1.12444 5.7541 1.37469 5.7541H2.76457C3.01492 5.7541 3.21788 5.95711 3.21788 6.20741C3.21788 6.45762 3.01479 6.66077 2.76457 6.66077ZM7.6744 6.56997H4.44148C4.28297 6.56997 4.15454 6.44146 4.15454 6.28303C4.15454 6.12431 4.28297 5.99585 4.44148 5.99585H7.6744C7.8331 5.99585 7.9615 6.12431 7.9615 6.28303C7.9615 6.44146 7.8331 6.56997 7.6744 6.56997ZM10.5901 6.66077H9.20028C8.94982 6.66077 8.74698 6.45762 8.74698 6.20741C8.74698 5.95711 8.94998 5.7541 9.20028 5.7541H10.5901C10.8406 5.7541 11.0436 5.95711 11.0436 6.20741C11.0436 6.45762 10.8406 6.66077 10.5901 6.66077Z" fill="#D3D2E2" />
+								</svg>
+							</div>
+							<span>Transmission</span>
+							<strong>Manual</strong>
+						</div>
+						<div class="catalog-details-item">
+							<div class="icon">
+								<svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5 0C2.46699 0 0.40625 2.06074 0.40625 4.59375C0.40625 5.40455 0.620469 6.20168 1.02573 6.89895C1.1202 7.06151 1.22581 7.21992 1.33967 7.3698L4.80041 12H5.19957L8.66033 7.36983C8.77416 7.21992 8.87977 7.06153 8.97427 6.89897C9.37953 6.20168 9.59375 5.40455 9.59375 4.59375C9.59375 2.06074 7.53301 0 5 0ZM5 6.11719C4.15998 6.11719 3.47656 5.43377 3.47656 4.59375C3.47656 3.75373 4.15998 3.07031 5 3.07031C5.84002 3.07031 6.52344 3.75373 6.52344 4.59375C6.52344 5.43377 5.84002 6.11719 5 6.11719Z" fill="#D3D2E2" />
+								</svg>
+							</div>
+							<span>Location</span>
+							<strong>990 mi</strong>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="catalog-item box-style wow" data-wow-duration="1.3s">
+				<a href="single-catalog.html">
+					<div class="img-wrap">
+						<img src="img/catalog-img-8.png" alt="">
+					</div>
+					<div class="catalog-info-box">
+						<div class="catalog-info-left">
+							<span>2017 Nissan</span>
+							<h3>Versa Sedan</h3>
+						</div>
+						<div class="catalog-info-right">
+							<div class="price"><span>$</span><strong>355</strong></div>
+							<span class="price-descr">as low as /mo</span>
+						</div>
+					</div>
+					<div class="catalog-details-box">
+						<div class="catalog-details-item">
+							<div class="icon">
+								<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.99999 0L0.5 12L1.01221 12H12.9878L13.5 12L6.99999 0ZM6.99999 2.01091L8.80736 5.44951H6.99999C6.22616 5.44951 5.5966 6.07907 5.5966 6.8529C5.5966 7.62672 6.22616 8.25628 6.99999 8.25628H7.93558C8.19352 8.25628 8.40337 8.46613 8.40337 8.72408C8.40337 8.98202 8.19352 9.19187 7.93558 9.19187H5.3627C4.58888 9.19187 3.95932 9.82143 3.95932 10.5953C3.95932 10.7598 3.98802 10.9176 4.04025 11.0644H2.24136L6.99999 2.01091ZM5.3627 11.0644V11.0631C5.10476 11.0631 4.89491 10.8532 4.89491 10.5953C4.89491 10.3373 5.10476 10.1275 5.3627 10.1275H7.93558C8.7094 10.1275 9.33896 9.4979 9.33896 8.72408C9.33896 7.95025 8.7094 7.32069 7.93558 7.32069H6.99999C6.74204 7.32069 6.53219 7.11084 6.53219 6.8529C6.53219 6.59495 6.74204 6.3851 6.99999 6.3851H9.29911L11.7586 11.0644H5.3627Z" fill="#D3D2E2" />
+								</svg>
+							</div>
+							<span>Mileage</span>
+							<strong>31k</strong>
+						</div>
+						<div class="catalog-details-item">
+							<div class="icon">
+								<svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M11.9998 5.55166C11.9998 5.31562 11.9465 5.09017 11.8503 4.88392C11.8404 4.83149 11.8291 4.77913 11.8149 4.72603L10.7725 2.14278L10.7655 2.11953C10.4008 1.03361 9.88182 0.0285645 8.56598 0.0285645H3.53498C2.1867 0.0285645 1.71026 1.05851 1.33756 2.1135L0.247241 4.70305C0.0896156 4.9556 0 5.2445 0 5.55166V6.35549C0 6.47977 0.0146902 6.60134 0.0426231 6.71843C0.0154676 6.78917 0 6.86541 0 6.94578V9.33656C0 9.68714 0.284207 9.9714 0.634789 9.9714H1.95208C2.30248 9.9714 2.58668 9.68714 2.58668 9.33656V8.14099H9.4884V9.33656C9.4884 9.68714 9.77266 9.9714 10.1233 9.9714H11.3651C11.7158 9.9714 12 9.68714 12 9.33656V6.94551C12 6.86544 11.9844 6.78885 11.9574 6.71835C11.9853 6.60107 12 6.47963 12 6.35538V5.55168H11.9998V5.55166ZM2.11116 2.37286C2.52621 1.20185 2.85998 0.844381 3.53498 0.844381H8.56568C9.23572 0.844381 9.60882 1.24308 9.98795 2.36782L10.7486 3.90927C10.5002 3.8173 10.2269 3.76626 9.93975 3.76626H2.06009C1.80153 3.76626 1.55446 3.80784 1.32649 3.88308L2.11116 2.37286ZM2.76457 6.66077H1.37469C1.12444 6.66077 0.921489 6.45762 0.921489 6.20741C0.921489 5.95711 1.12444 5.7541 1.37469 5.7541H2.76457C3.01492 5.7541 3.21788 5.95711 3.21788 6.20741C3.21788 6.45762 3.01479 6.66077 2.76457 6.66077ZM7.6744 6.56997H4.44148C4.28297 6.56997 4.15454 6.44146 4.15454 6.28303C4.15454 6.12431 4.28297 5.99585 4.44148 5.99585H7.6744C7.8331 5.99585 7.9615 6.12431 7.9615 6.28303C7.9615 6.44146 7.8331 6.56997 7.6744 6.56997ZM10.5901 6.66077H9.20028C8.94982 6.66077 8.74698 6.45762 8.74698 6.20741C8.74698 5.95711 8.94998 5.7541 9.20028 5.7541H10.5901C10.8406 5.7541 11.0436 5.95711 11.0436 6.20741C11.0436 6.45762 10.8406 6.66077 10.5901 6.66077Z" fill="#D3D2E2" />
+								</svg>
+							</div>
+							<span>Transmission</span>
+							<strong>Manual</strong>
+						</div>
+						<div class="catalog-details-item">
+							<div class="icon">
+								<svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5 0C2.46699 0 0.40625 2.06074 0.40625 4.59375C0.40625 5.40455 0.620469 6.20168 1.02573 6.89895C1.1202 7.06151 1.22581 7.21992 1.33967 7.3698L4.80041 12H5.19957L8.66033 7.36983C8.77416 7.21992 8.87977 7.06153 8.97427 6.89897C9.37953 6.20168 9.59375 5.40455 9.59375 4.59375C9.59375 2.06074 7.53301 0 5 0ZM5 6.11719C4.15998 6.11719 3.47656 5.43377 3.47656 4.59375C3.47656 3.75373 4.15998 3.07031 5 3.07031C5.84002 3.07031 6.52344 3.75373 6.52344 4.59375C6.52344 5.43377 5.84002 6.11719 5 6.11719Z" fill="#D3D2E2" />
+								</svg>
+							</div>
+							<span>Location</span>
+							<strong>990 mi</strong>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="catalog-item box-style wow" data-wow-duration="1.6s">
+				<a href="single-catalog.html">
+					<div class="img-wrap">
+						<img src="img/catalog-img-10.png" alt="">
+					</div>
+					<div class="catalog-info-box">
+						<div class="catalog-info-left">
+							<span>2017 Nissan</span>
+							<h3>Versa Sedan</h3>
+						</div>
+						<div class="catalog-info-right">
+							<div class="price"><span>$</span><strong>355</strong></div>
+							<span class="price-descr">as low as /mo</span>
+						</div>
+					</div>
+					<div class="catalog-details-box">
+						<div class="catalog-details-item">
+							<div class="icon">
+								<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.99999 0L0.5 12L1.01221 12H12.9878L13.5 12L6.99999 0ZM6.99999 2.01091L8.80736 5.44951H6.99999C6.22616 5.44951 5.5966 6.07907 5.5966 6.8529C5.5966 7.62672 6.22616 8.25628 6.99999 8.25628H7.93558C8.19352 8.25628 8.40337 8.46613 8.40337 8.72408C8.40337 8.98202 8.19352 9.19187 7.93558 9.19187H5.3627C4.58888 9.19187 3.95932 9.82143 3.95932 10.5953C3.95932 10.7598 3.98802 10.9176 4.04025 11.0644H2.24136L6.99999 2.01091ZM5.3627 11.0644V11.0631C5.10476 11.0631 4.89491 10.8532 4.89491 10.5953C4.89491 10.3373 5.10476 10.1275 5.3627 10.1275H7.93558C8.7094 10.1275 9.33896 9.4979 9.33896 8.72408C9.33896 7.95025 8.7094 7.32069 7.93558 7.32069H6.99999C6.74204 7.32069 6.53219 7.11084 6.53219 6.8529C6.53219 6.59495 6.74204 6.3851 6.99999 6.3851H9.29911L11.7586 11.0644H5.3627Z" fill="#D3D2E2" />
+								</svg>
+							</div>
+							<span>Mileage</span>
+							<strong>31k</strong>
+						</div>
+						<div class="catalog-details-item">
+							<div class="icon">
+								<svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M11.9998 5.55166C11.9998 5.31562 11.9465 5.09017 11.8503 4.88392C11.8404 4.83149 11.8291 4.77913 11.8149 4.72603L10.7725 2.14278L10.7655 2.11953C10.4008 1.03361 9.88182 0.0285645 8.56598 0.0285645H3.53498C2.1867 0.0285645 1.71026 1.05851 1.33756 2.1135L0.247241 4.70305C0.0896156 4.9556 0 5.2445 0 5.55166V6.35549C0 6.47977 0.0146902 6.60134 0.0426231 6.71843C0.0154676 6.78917 0 6.86541 0 6.94578V9.33656C0 9.68714 0.284207 9.9714 0.634789 9.9714H1.95208C2.30248 9.9714 2.58668 9.68714 2.58668 9.33656V8.14099H9.4884V9.33656C9.4884 9.68714 9.77266 9.9714 10.1233 9.9714H11.3651C11.7158 9.9714 12 9.68714 12 9.33656V6.94551C12 6.86544 11.9844 6.78885 11.9574 6.71835C11.9853 6.60107 12 6.47963 12 6.35538V5.55168H11.9998V5.55166ZM2.11116 2.37286C2.52621 1.20185 2.85998 0.844381 3.53498 0.844381H8.56568C9.23572 0.844381 9.60882 1.24308 9.98795 2.36782L10.7486 3.90927C10.5002 3.8173 10.2269 3.76626 9.93975 3.76626H2.06009C1.80153 3.76626 1.55446 3.80784 1.32649 3.88308L2.11116 2.37286ZM2.76457 6.66077H1.37469C1.12444 6.66077 0.921489 6.45762 0.921489 6.20741C0.921489 5.95711 1.12444 5.7541 1.37469 5.7541H2.76457C3.01492 5.7541 3.21788 5.95711 3.21788 6.20741C3.21788 6.45762 3.01479 6.66077 2.76457 6.66077ZM7.6744 6.56997H4.44148C4.28297 6.56997 4.15454 6.44146 4.15454 6.28303C4.15454 6.12431 4.28297 5.99585 4.44148 5.99585H7.6744C7.8331 5.99585 7.9615 6.12431 7.9615 6.28303C7.9615 6.44146 7.8331 6.56997 7.6744 6.56997ZM10.5901 6.66077H9.20028C8.94982 6.66077 8.74698 6.45762 8.74698 6.20741C8.74698 5.95711 8.94998 5.7541 9.20028 5.7541H10.5901C10.8406 5.7541 11.0436 5.95711 11.0436 6.20741C11.0436 6.45762 10.8406 6.66077 10.5901 6.66077Z" fill="#D3D2E2" />
+								</svg>
+							</div>
+							<span>Transmission</span>
+							<strong>Manual</strong>
+						</div>
+						<div class="catalog-details-item">
+							<div class="icon">
+								<svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5 0C2.46699 0 0.40625 2.06074 0.40625 4.59375C0.40625 5.40455 0.620469 6.20168 1.02573 6.89895C1.1202 7.06151 1.22581 7.21992 1.33967 7.3698L4.80041 12H5.19957L8.66033 7.36983C8.77416 7.21992 8.87977 7.06153 8.97427 6.89897C9.37953 6.20168 9.59375 5.40455 9.59375 4.59375C9.59375 2.06074 7.53301 0 5 0ZM5 6.11719C4.15998 6.11719 3.47656 5.43377 3.47656 4.59375C3.47656 3.75373 4.15998 3.07031 5 3.07031C5.84002 3.07031 6.52344 3.75373 6.52344 4.59375C6.52344 5.43377 5.84002 6.11719 5 6.11719Z" fill="#D3D2E2" />
+								</svg>
+							</div>
+							<span>Location</span>
+							<strong>990 mi</strong>
+						</div>
+					</div>
+				</a>
+			</div>
+			<div class="catalog-item box-style wow" data-wow-duration="1.9s">
+				<a href="single-catalog.html">
+					<div class="img-wrap">
+						<img src="img/catalog-img-7.png" alt="">
+					</div>
+					<div class="catalog-info-box">
+						<div class="catalog-info-left">
+							<span>2017 Nissan</span>
+							<h3>Versa Sedan</h3>
+						</div>
+						<div class="catalog-info-right">
+							<div class="price"><span>$</span><strong>355</strong></div>
+							<span class="price-descr">as low as /mo</span>
+						</div>
+					</div>
+					<div class="catalog-details-box">
+						<div class="catalog-details-item">
+							<div class="icon">
+								<svg width="14" height="12" viewBox="0 0 14 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.99999 0L0.5 12L1.01221 12H12.9878L13.5 12L6.99999 0ZM6.99999 2.01091L8.80736 5.44951H6.99999C6.22616 5.44951 5.5966 6.07907 5.5966 6.8529C5.5966 7.62672 6.22616 8.25628 6.99999 8.25628H7.93558C8.19352 8.25628 8.40337 8.46613 8.40337 8.72408C8.40337 8.98202 8.19352 9.19187 7.93558 9.19187H5.3627C4.58888 9.19187 3.95932 9.82143 3.95932 10.5953C3.95932 10.7598 3.98802 10.9176 4.04025 11.0644H2.24136L6.99999 2.01091ZM5.3627 11.0644V11.0631C5.10476 11.0631 4.89491 10.8532 4.89491 10.5953C4.89491 10.3373 5.10476 10.1275 5.3627 10.1275H7.93558C8.7094 10.1275 9.33896 9.4979 9.33896 8.72408C9.33896 7.95025 8.7094 7.32069 7.93558 7.32069H6.99999C6.74204 7.32069 6.53219 7.11084 6.53219 6.8529C6.53219 6.59495 6.74204 6.3851 6.99999 6.3851H9.29911L11.7586 11.0644H5.3627Z" fill="#D3D2E2" />
+								</svg>
+							</div>
+							<span>Mileage</span>
+							<strong>31k</strong>
+						</div>
+						<div class="catalog-details-item">
+							<div class="icon">
+								<svg width="12" height="10" viewBox="0 0 12 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M11.9998 5.55166C11.9998 5.31562 11.9465 5.09017 11.8503 4.88392C11.8404 4.83149 11.8291 4.77913 11.8149 4.72603L10.7725 2.14278L10.7655 2.11953C10.4008 1.03361 9.88182 0.0285645 8.56598 0.0285645H3.53498C2.1867 0.0285645 1.71026 1.05851 1.33756 2.1135L0.247241 4.70305C0.0896156 4.9556 0 5.2445 0 5.55166V6.35549C0 6.47977 0.0146902 6.60134 0.0426231 6.71843C0.0154676 6.78917 0 6.86541 0 6.94578V9.33656C0 9.68714 0.284207 9.9714 0.634789 9.9714H1.95208C2.30248 9.9714 2.58668 9.68714 2.58668 9.33656V8.14099H9.4884V9.33656C9.4884 9.68714 9.77266 9.9714 10.1233 9.9714H11.3651C11.7158 9.9714 12 9.68714 12 9.33656V6.94551C12 6.86544 11.9844 6.78885 11.9574 6.71835C11.9853 6.60107 12 6.47963 12 6.35538V5.55168H11.9998V5.55166ZM2.11116 2.37286C2.52621 1.20185 2.85998 0.844381 3.53498 0.844381H8.56568C9.23572 0.844381 9.60882 1.24308 9.98795 2.36782L10.7486 3.90927C10.5002 3.8173 10.2269 3.76626 9.93975 3.76626H2.06009C1.80153 3.76626 1.55446 3.80784 1.32649 3.88308L2.11116 2.37286ZM2.76457 6.66077H1.37469C1.12444 6.66077 0.921489 6.45762 0.921489 6.20741C0.921489 5.95711 1.12444 5.7541 1.37469 5.7541H2.76457C3.01492 5.7541 3.21788 5.95711 3.21788 6.20741C3.21788 6.45762 3.01479 6.66077 2.76457 6.66077ZM7.6744 6.56997H4.44148C4.28297 6.56997 4.15454 6.44146 4.15454 6.28303C4.15454 6.12431 4.28297 5.99585 4.44148 5.99585H7.6744C7.8331 5.99585 7.9615 6.12431 7.9615 6.28303C7.9615 6.44146 7.8331 6.56997 7.6744 6.56997ZM10.5901 6.66077H9.20028C8.94982 6.66077 8.74698 6.45762 8.74698 6.20741C8.74698 5.95711 8.94998 5.7541 9.20028 5.7541H10.5901C10.8406 5.7541 11.0436 5.95711 11.0436 6.20741C11.0436 6.45762 10.8406 6.66077 10.5901 6.66077Z" fill="#D3D2E2" />
+								</svg>
+							</div>
+							<span>Transmission</span>
+							<strong>Manual</strong>
+						</div>
+						<div class="catalog-details-item">
+							<div class="icon">
+								<svg width="10" height="12" viewBox="0 0 10 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M5 0C2.46699 0 0.40625 2.06074 0.40625 4.59375C0.40625 5.40455 0.620469 6.20168 1.02573 6.89895C1.1202 7.06151 1.22581 7.21992 1.33967 7.3698L4.80041 12H5.19957L8.66033 7.36983C8.77416 7.21992 8.87977 7.06153 8.97427 6.89897C9.37953 6.20168 9.59375 5.40455 9.59375 4.59375C9.59375 2.06074 7.53301 0 5 0ZM5 6.11719C4.15998 6.11719 3.47656 5.43377 3.47656 4.59375C3.47656 3.75373 4.15998 3.07031 5 3.07031C5.84002 3.07031 6.52344 3.75373 6.52344 4.59375C6.52344 5.43377 5.84002 6.11719 5 6.11719Z" fill="#D3D2E2" />
+								</svg>
+							</div>
+							<span>Location</span>
+							<strong>990 mi</strong>
+						</div>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+<footer>
+		<div class="container">
+			<a href="main.html" class="logo_footer"><img src="img/logo.png" alt=""></a>
+			<div class="right">
+				<a href="index.html">Explore cars</a>
+				<a href="faq.html">FAQs</a>
+				<a href="sitemap.html">Sitemap</a>
+			</div>
+		</div>
+	</footer>
+	
+	<div class="scroll_top"></div>
+	<!-- SCRIPTS -->
+	<script src="assets/jquery/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script src="assets/swiper/dist/js/swiper.min.js"></script>
+	<script src="assets/select2/select2.full.min.js"></script>
+	<script src="assets/wow/wow.min.js"></script>
+	<script src="assets/datepicker/datepicker.min.js"></script>
+	<script src="assets/dataTables/datatables.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
+	<script src="js/common.js"></script>
+	<!-- SCRIPTS END -->
+	</body>
+</html>

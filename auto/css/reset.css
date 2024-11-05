@@ -1,0 +1,62 @@
+html, body, p, h1, h2, h3, h4, ul, article, figure{
+    padding: 0;
+    margin: 0;
+    font-weight: normal;
+}
+body{
+    line-height: 1.2;
+    font-size: 16px;
+    width: 100%;
+    overflow-x: hidden;
+    color: #333;
+    font-family: 'Bw Modelica', sans serif;
+    background: #F6F6FB;
+    padding: 80px 0 67px;
+    min-height: 100vh;
+    position: relative;
+}
+a{
+    color: inherit;
+}
+*,
+*:before, *:after{
+    box-sizing: border-box;
+}
+a,
+.btn,
+button,
+button:before,
+button:after{
+    text-decoration: none;
+    -webkit-transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    -ms-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+    outline: none;
+}
+img{
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+.btn,
+input,
+textarea,
+select,
+button,
+.slick-slide{
+    outline: none;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+label{
+    cursor: pointer;
+}
