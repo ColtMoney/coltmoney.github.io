@@ -616,8 +616,8 @@ $(function () {
         arrows: true,
         vertical: true,
         verticalSwiping: true,
-        prevArrow: '<a href="" class="slider_arrow arrow_prev"></a>',
-        nextArrow: '<a href="" class="slider_arrow arrow_next"></a>',
+        prevArrow: '<a href="#" class="slider_arrow arrow_prev"></a>',
+        nextArrow: '<a href="#" class="slider_arrow arrow_next"></a>',
         dots: false
     });
 
