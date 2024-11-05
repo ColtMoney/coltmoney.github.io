@@ -1,0 +1,298 @@
+@media (min-width:1920px){
+    .social-banner svg {
+        transform: translateY(-28%);
+    }
+}
+@media (max-width:1919px) {
+    .social-banner svg {
+        transform: translateY(-26%);
+    }
+}
+@media (max-width:1830px) {
+    .social-banner svg {
+        transform: translateY(-23%);
+    }
+}
+@media (max-width:1740px) {
+    .social-banner svg {
+        transform: translateY(-20%);
+    }
+}
+@media (max-width:1660px) {
+    .social-banner svg {
+        transform: translateY(-16%);
+    }
+
+}
+@media (max-width:1575px) {
+    .social-banner svg {
+        transform: translateY(-12%);
+    }
+}
+@media (max-width:1500px) {
+    .social-banner svg {
+        transform: translateY(-8%);
+    }
+}
+@media (max-width:1420px) {
+    .social-banner svg {
+        transform: translateY(-4%);
+    }
+}
+@media (max-width:1400px){
+    .main-banner {
+        height: 450px;
+    }
+    .banner-info {
+        padding-top: 150px;
+    }
+}
+@media (max-width:1375px) {
+    .social-banner svg {
+        transform: translateY(-0%);
+    }
+}
+@media (max-width:1320px) {
+    .social-banner svg {
+        transform: translateY(5%);
+    }
+}
+@media (max-width:1250px) {
+    .main-banner {
+        height: auto;
+    }
+
+    .banner-info {
+        padding-top: 125px;
+    }
+    .social-banner svg {
+        transform: translateY(8%);
+    }
+}
+@media (max-width: 1199px) {
+  .container {
+    width: 970px;
+  }
+    .social-banner .container h1 {
+        font-size: 54px;
+    }
+    .social-form-top {
+        padding: 60px 15px 10px;
+    }
+    .social-form-bottom {
+        padding: 20px 15px;
+    }
+    .social-form-bottom .btn {
+        width: 170px;
+        height: 40px;
+    }
+    .footer-banner-text h3 {
+        font-size: 65px;
+    }
+    .swiper-result-image .swiper-slide {
+        height: 310px;
+    }
+    .result-image {
+        padding: 0px 35px 30px;
+    }
+    .result-wrap-sliders {
+        align-items: center;
+    }
+    .banner-wave{
+        display:none;
+    }
+    .main-banner {
+        background-image: url(../img/main-banner.png);
+        background-size: 100% 358px;
+        background-repeat: no-repeat;
+    }
+    .social-banner svg {
+        display: none;
+    }
+    .social-banner {
+        background-image: url(../img/social-banner.png);
+        background-size: 100% 100%;
+    }
+        .social-banner .container {
+            height: auto;
+            padding: 125px 0 50px;
+        }
+    .marketing-bottom {
+        display:none;
+    }
+    .marketing {
+       padding:40px 0 30px;
+       background-image: url(../img/markenig-bg.png);
+        background-size: 100% 100%;
+    }
+    .about {
+        padding: 40px 0 60px;
+    }
+}
+@media (max-width: 991px) {
+  .container {
+    width: 750px;
+  }
+    .footer-banner.footer-banner-inner .footer-banner-text {
+        padding-top: 0px;
+    }
+    .footer-banner-inner .footer-banner-text h3 {
+        font-size: 56px;
+    }
+    .footer-banner {
+        height: auto;
+    }
+    .social-banner .container h1 {
+        font-size: 46px;
+    }
+    .social-form-bottom p {
+        font-size: 20px;
+    }
+    .social-form-bottom .btn {
+        width: 130px;
+        height: 35px;
+    }
+    .footer-banner-text h3 {
+        font-size: 60px;
+    }
+    .result-image {
+        width: 510px;
+        margin:0 auto 50px auto;
+    }
+    .result-info {
+        margin: auto;
+    }
+    .result-pagin-wrap {
+        right: calc(50% - 200px);
+    }
+}
+@media (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+    .footer-banner-image {
+        width: 100%;
+        text-align: center;
+        margin:0 0 15px;
+    }
+    .footer-banner-text {
+        width: 100%;
+        text-align: center;
+    }
+    .footer-banner .footer-banner-image img.parallax-image {
+        position: relative;
+    }
+    .footer-banner-btn {
+        margin: auto;
+    }
+    .soc-contact-block {
+        width: calc(50% - 20px);
+    }
+    .social-block h3 {
+        margin: 5px 0 15px;
+        font-size: 26px;
+    }
+    .social-sub {
+        margin: 0 auto 15px auto;
+        line-height: 24px;
+        font-size: 16px;
+    }
+    .footer-banner-inner .footer-banner-text h3 {
+        font-size: 44px;
+    }
+    .social-contact {
+        margin: 0 0 40px;
+    }
+    .social-banner .container h1 {
+        font-size: 42px;
+        width: 100%;
+        text-align:center;
+    }
+    .social-banner .container {
+        height: auto;
+        padding: 80px 0 20px;
+        flex-wrap:wrap;
+    }
+    .social-form-block {
+        width: calc(100% - 30px);
+        margin: 50px auto 0 auto;
+    }
+    .social-checkbox-wrap {
+        padding: 40px 0 0;
+    }
+    .footer-banner-text h3 {
+        font-size: 50px;
+    }
+    .about-block {
+        flex-wrap: wrap;
+        margin: 0 0 75px;
+    }
+    .about-text {
+        margin: 30px 0 0;
+        width: 100%;
+        text-align: center;
+    }
+    .about-image{
+        width:100%;
+        text-align:center;
+    }
+    .about-block:nth-child(even) .about-text {
+        margin: 30px 0 0;
+        text-align: center;
+    }
+    about-text p {
+        font-size: 20px;
+    }
+    .about-text h3 {
+        font-size: 24px;
+        margin: 0 0 10px;
+    }
+    .result-image {
+        width: 290px;
+        margin: 0 auto 30px auto;
+        pointer-events: none;
+    }
+    .swiper-result-image .swiper-slide {
+        height: 162px;
+    }
+    .result-pagin-wrap {
+        right: 0;
+    }
+    .our-results {
+        padding: 65px 0 55px;
+    }
+    .result-info {
+        padding-bottom: 35px;
+    }
+    .progress-info {
+        margin: 0px 0 10px;
+    }
+}
+@media (max-width: 450px) {
+    .soc-contact-block {
+        width: 100%;
+    }
+    .checkbox-name {
+        padding-right: 10px;
+        flex:1;
+    }
+    .footer-banner-text h3 {
+        font-size: 40px;
+    }
+    .result-info h3 span {
+        font-size: 28px;
+    }
+    .result-info h3 {
+        font-size: 22px;
+        margin: 0 0 5px;
+    }
+}
+@media (max-width: 368px) {
+    .social-form-bottom p {
+        font-size: 18px;
+    }
+    .social-form-bottom .btn {
+        width: 100px;
+    }
+
+}
