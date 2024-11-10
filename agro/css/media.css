@@ -1,0 +1,1312 @@
+@media(max-width: 1199px) {
+	.new_s_science_item .img_wrpr {
+		min-height: initial;
+	}
+
+	.form-country-selector .select-group {
+		max-width: 389px;
+	}
+
+	.card-box .btn-group .btn {
+		padding: 10px 15px 12px;
+	}
+
+	.main-menu ul li {
+		margin-right: 35px;
+	}
+
+	.top_footer_block .col:nth-child(1) {
+		width: 70%;
+	}
+
+	.top_footer_block .col:nth-child(2) {
+		width: 30%;
+	}
+
+	.top_section_screen.become_distr_man_bg .man_img {
+		right: 0;
+	}
+
+	.crop_gallery .item {
+		height: 220px;
+	}
+
+	.block_two_col.left_text.short_img .col:nth-child(1) {
+		padding-right: 50px;
+	}
+
+	.block_two_col.right_text.short_img .col:nth-child(1) {
+		padding-left: 50px;
+	}
+
+	.block_two_col.left_text.long_img.bg_5 {
+		overflow-y: hidden;
+	}
+
+	.crops_two_col_s .col_wrp .col:nth-child(1) {
+		padding-right: 50px;
+	}
+
+	.read_more_btn,
+	.work-item .data {
+		font-size: 15px;
+	}
+
+	.read_more_btn span {
+		margin-left: 10px;
+	}
+
+	.work-item .bottom-info {
+		padding: 0 15px;
+	}
+
+	.s-subscribe::before {
+		right: 0;
+	}
+
+	.s-science-card .card-box .img-wrap,
+	.s-science-card .card-box .text-box {
+		width: 100%;
+	}
+
+	.s-science-card .card-box .img-wrap {
+		height: initial;
+		border-radius: 7px;
+		overflow: hidden;
+		max-height: 400px;
+	}
+
+	.s-science-card .card-box .img-wrap img {
+		position: initial;
+		height: initial;
+		margin-bottom: -50px;
+		margin-top: -50px;
+	}
+
+	.s-science .left {
+		width: calc(65% - 60px);
+	}
+
+	.testimonials_item .person_info {
+		margin-left: -465px;
+	}
+
+	.new_s_science .new_s_science_item .col:nth-child(2) {
+		padding-left: 50px;
+	}
+
+	.crop_gallery .item .product {
+		right: 65px;
+	}
+
+	.green_crops_tile_item .content {
+		padding: 24px 15px;
+	}
+
+	.green_crops_tile_item .content h3 {
+		margin-bottom: 7px;
+	}
+
+	.green_crops_tile_item .content p {
+		line-height: 115%;
+	}
+
+	.green_crops_tile_item .triangle {
+		padding: 10px;
+	}
+
+	.reg_cols .col {
+		padding: 20px 0;
+	}
+
+	.reg_cols .col:nth-child(1) {
+		padding-left: 30px;
+		padding-right: 50px;
+	}
+
+	.reg_cols .col:nth-child(2) {
+		padding-right: 30px;
+		padding-left: 50px;
+	}
+
+	.main_user_header .header_user a span {
+		display: none;
+	}
+
+	.header_user_immg,
+	.header_user a svg {
+		margin-right: 0;
+	}
+
+	.main_user_header .search-box {
+		right: 132px;
+	}
+
+	.main-header.main_user_header .header-logo {
+		max-width: 165px;
+	}
+
+	.main-header.main_user_header .header-logo img {
+		max-width: 165px;
+	}
+}
+
+@media(max-width: 991px) {
+	.footer_nav {
+		width: 100%;
+	}
+
+	.top_footer_block .col:nth-child(1) {
+		width: 85%;
+	}
+
+	.top_footer_block .col:nth-child(2) {
+		width: 15%;
+		padding: 5px;
+	}
+
+	.about-item {
+		width: calc(50% - 15px);
+	}
+
+	.main-header .header-logo img {
+		max-width: 90px;
+	}
+
+	.main-menu ul,
+	.main-header .header-right .btn-wrap,
+	.btn-login {
+		display: none;
+	}
+
+	.search-box.active {
+		width: 400px;
+		right: 0;
+		top: 50%;
+		height: 50px;
+		margin-top: -25px;
+	}
+
+	.btn_open_mobile_dropdown {
+		display: block;
+		cursor: pointer;
+	}
+
+	.btn_open_mobile_dropdown span {
+		display: block;
+		height: 4px;
+		width: 32px;
+		margin-bottom: 5px;
+		background: #009649;
+		border-radius: 3px;
+		transition: all 0.3s ease-in-out;
+	}
+
+	.btn_open_mobile_dropdown span:last-child {
+		margin-bottom: 0;
+	}
+
+	.btn_open_mobile_dropdown.active span:nth-child(2) {
+		transform: translateX(32px);
+		opacity: 0;
+	}
+
+	.btn_open_mobile_dropdown.active span:nth-child(1) {
+		transform: rotate(-45deg) translate3d(-3px, 4px, 10px);
+	}
+
+	.btn_open_mobile_dropdown.active span:nth-child(3) {
+		transform: rotate(45deg) translate3d(-9px, -10px, 10px);
+	}
+
+	.btn_open_mobile_dropdown:not(.active):hover span:nth-child(2) {
+		opacity: 0.5;
+		transform: translateX(3px);
+	}
+
+	.btn_open_mobile_dropdown:not(.active):hover span:nth-child(1) {
+		transform: rotate(-5deg);
+	}
+
+	.btn_open_mobile_dropdown:not(.active):hover span:nth-child(3) {
+		transform: rotate(5deg);
+	}
+
+	.language-select-box {
+		margin: 0 15px 0 10px;
+	}
+
+	.main-header {
+		padding: 10px 0;
+	}
+
+	.mobile_header_dropdown {
+		display: block;
+		position: fixed;
+		left: -100%;
+		top: 59.4px;
+		width: 80%;
+		height: calc(100vh - 59.4px);
+		background: #fff;
+		transition: all 0.5s ease-in-out;
+		padding: 50px;
+		z-index: 998;
+	}
+
+	.mobile_header_dropdown.active {
+		left: 0;
+	}
+
+	.mobile_header_dropdown ul li a {
+		color: #213B8F;
+		font-size: 18px;
+		font-weight: 700;
+		line-height: 27px;
+		margin-bottom: 5px;
+		display: block;
+		border-bottom: 1px solid #009649;
+	}
+
+	.mobile_header_dropdown ul li a:hover {
+		color: #009649;
+	}
+
+	.language-select-box .selct-lang-box {
+		top: calc(100% + 20px);
+	}
+
+	.form-country-selector .select-group {
+		max-width: 284px;
+	}
+
+	.s-science {
+		padding-bottom: 0;
+	}
+
+	.s-science .container {
+		justify-content: center;
+	}
+
+	.s-science .left,
+	.s-science .right {
+		width: 100%;
+	}
+
+	.s-science .left {
+		margin-bottom: 30px;
+	}
+
+	.card-box {
+		margin: 0 auto;
+	}
+
+	.footer_links li {
+		margin: 0 10px;
+	}
+
+	.top_section_screen {
+		min-height: 300px;
+		height: initial;
+	}
+
+	.top_section_screen .container {
+		min-height: 300px;
+		height: initial;
+	}
+
+	.top_section_screen .blur_block {
+		margin: 30px 0;
+	}
+
+	.top_section_screen.become_distr_man_bg .man_img {
+		display: none;
+	}
+
+	.top_section_screen.become_distr_man_bg .blur_block {
+		margin: 30px auto;
+	}
+
+	.crop_gallery .item {
+		height: 160px;
+	}
+
+	.block_two_col.right_text.short_img .col:nth-child(1),
+	.block_two_col.right_text.short_img .col:nth-child(2),
+	.block_two_col.left_text.short_img .col:nth-child(1),
+	.block_two_col.left_text.short_img .col:nth-child(2),
+	.block_two_col.left_text.long_img .col:nth-child(1),
+	.block_two_col.left_text.long_img .col:nth-child(2),
+	.block_two_col.right_text.long_img .col:nth-child(1),
+	.block_two_col.right_text.long_img .col:nth-child(2),
+	.block_two_col.left_text.long_img:last-child .col:nth-child(1),
+	.crops_two_col_s.left_video .col_wrp .col:nth-child(1),
+	.crops_two_col_s.left_video .col_wrp .col:nth-child(2),
+	.crops_two_col_s .col_wrp .col:nth-child(1),
+	.crops_two_col_s .col_wrp .col:nth-child(2) {
+		width: 100%;
+		padding: 0;
+	}
+
+	.block_two_col.right_text.short_img .col:nth-child(1),
+	.block_two_col.right_text.long_img .col:nth-child(1) {
+		order: 0;
+	}
+
+	.crops_two_col_s.left_video .col_wrp .col:nth-child(1) {
+		margin-bottom: 30px;
+	}
+
+	.crops_two_col_s.careers_page .col_wrp .col:nth-child(1) {
+		padding-right: 0;
+		margin-bottom: 20px;
+	}
+
+	.crops_two_col_s.careers_page .col_wrp .col img {
+		margin: 0 auto;
+		display: block;
+	}
+
+	.block_two_col img {
+		display: block;
+		margin: 0 auto;
+	}
+
+	.crops_tile_item {
+		width: calc(33% - 15px);
+	}
+
+	.crops_tile_item_form {
+		width: calc(67% - 15px);
+	}
+
+	.featured_varieties_slider {
+		width: 67%;
+	}
+
+	.see_all_variet {
+		width: 33%;
+	}
+
+	.featured_varieties_slider .featured_varieties_name {
+		bottom: 24px;
+	}
+
+	.work-item {
+		width: calc(50% - 15px);
+	}
+
+	.text-three-column .col-3 {
+		width: calc(100% - 26px);
+		margin: 10px 13px;
+	}
+
+	.text-box-with-img .img-wrap,
+	.text-box-with-img .text {
+		width: calc(100% - 32px);
+	}
+
+	.text-box-with-img .text {
+		margin-bottom: 20px;
+	}
+
+	.text-box-with-img .img-wrap {
+		text-align: center;
+	}
+
+	.map {
+		height: 440px;
+	}
+
+	.grey_dots_item {
+		width: calc(50% - 15px);
+	}
+
+	.crops_page_country .block_lit_icons_wrp .item {
+		width: calc(50% - 15px);
+	}
+
+	.testimonials_item .person_info {
+		margin-left: -360px;
+	}
+
+	.crop_gallery .item .product {
+		right: auto;
+		left: 10px;
+		bottom: 32px;
+	}
+
+	.crop_gallery .item .location {
+		right: auto;
+		left: 10px;
+		bottom: 52px;
+	}
+
+	.crop_gallery .item .date {
+		left: 10px;
+	}
+
+	.peoples_wrp .item {
+		width: calc(50% - 15px);
+	}
+
+	.green_crops_tile_item {
+		width: calc(33% - 15px);
+	}
+
+	.crops_country_slider_b .featured_varieties_slider {
+		width: 67%;
+	}
+
+	.country_contacts_wrpr {
+		flex-direction: column;
+	}
+
+	.country_contacts_wrpr h3 {
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	.crops_popup .two_cols .left,
+	.crops_popup .two_cols .right {
+		width: 100%;
+		padding: 0;
+	}
+
+	.crops_popup .two_cols .left {
+		margin-bottom: 20px;
+	}
+
+	.crops_popup .dwnld_btn,
+	.crops_popup .sign_in_btn {
+		max-width: 200px;
+	}
+
+	.crops_popup .download_block {
+		text-align: center;
+	}
+
+	.header_user:before {
+		height: 47px;
+		top: -10px;
+	}
+
+	.main_user_header .language-select-box {
+		margin: 0 33px 0 10px;
+	}
+
+	.main_user_header .search-box {
+		right: 136px;
+	}
+
+	.header_user {
+		margin-right: 10px;
+	}
+
+	.header_user a {
+		margin-left: 15px;
+	}
+
+	.contact_us_s .triple_cols_wrpr .col {
+		width: 100%;
+	}
+
+	.farmers_mob_order_change {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+}
+
+@media(max-width: 767px) {
+	.top_footer_block {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.top_footer_block .col:nth-child(1) {
+		border-right: 0;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.footer_nav {
+		padding-right: 0;
+		margin-top: 20px;
+	}
+
+	.top_footer_block .col:nth-child(1),
+	.top_footer_block .col:nth-child(2) {
+		width: 100%;
+	}
+
+	.top_footer_block .col:nth-child(2) {
+		display: flex;
+		justify-content: center;
+	}
+
+	.about-item {
+		max-width: initial;
+	}
+
+	.home-slider .slick-arrow {
+		bottom: 45px;
+	}
+
+	.home-slider .prev-arrow {
+		right: 100px;
+	}
+
+	.home-slider .next-arrow {
+		right: 50px;
+	}
+
+	.search-box.active {
+		width: 320px;
+	}
+
+	.form-country-selector {
+		flex-direction: column;
+	}
+
+	.form-country-selector .select-group {
+		max-width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.s-form {
+		padding: 50px 0;
+	}
+
+	.our-farmers {
+		padding-top: 50px;
+	}
+
+	.top-title-panel {
+		flex-direction: column;
+		align-items: baseline;
+	}
+
+	.top-title-panel .btn-wrap {
+		margin-top: 10px;
+	}
+
+	.card-box .img-wrap,
+	.card-box .text-box {
+		width: 100%;
+	}
+
+	.card-box .img-wrap {
+		height: initial;
+		border-radius: 7px;
+		overflow: hidden;
+	}
+
+	.card-box .img-wrap img {
+		position: initial;
+		height: initial;
+		margin-bottom: -50px;
+		margin-top: -50px;
+	}
+
+	.block_lit_icons_wrp .item {
+		width: 100%;
+		margin: 15px 0;
+	}
+
+	.block_lit_icons_wrp {
+		margin: 0;
+	}
+
+	.crop_gallery .item img {
+		position: initial;
+	}
+
+	.crop_gallery .item {
+		height: initial;
+	}
+
+	.block_two_col.bg_1 .bg_item,
+	.block_two_col.bg_3 .bg_item,
+	.block_two_col.bg_5 .bg_item,
+	.block_two_col.our_impact_item.bg_3 .bg_item {
+		left: 0;
+		width: 100%;
+	}
+
+	.blue_filters_wrp {
+		flex-direction: column;
+	}
+
+	.blue_filter_wrp {
+		max-width: 100%;
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.crops_tile_item {
+		width: calc(50% - 15px);
+	}
+
+	.crops_tile_item_form {
+		width: calc(100% - 15px);
+	}
+
+	.crops_two_col_s .col_wrp .col:nth-child(1),
+	.crops_two_col_s .col_wrp .col:nth-child(2) {
+		width: 100%;
+	}
+
+	.featured_varieties_slider,
+	.see_all_variet {
+		width: 50%;
+	}
+
+	.card-items .card-item {
+		width: calc(100% - 14px);
+	}
+
+	.map {
+		height: 340px;
+	}
+
+	.apply_now .three_inputs_form .col:nth-child(1),
+	.apply_now .three_inputs_form .col:nth-child(2) {
+		width: 100%;
+		padding: 0;
+	}
+
+	.apply_now .three_inputs_form .col:nth-child(2) {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		flex-wrap: wrap;
+		margin-top: 20px;
+	}
+
+	.apply_now .three_inputs_form .col:nth-child(2) .col_col {
+		width: 100%;
+	}
+
+	.apply_now .three_inputs_form .btn_apply {
+		margin: 0;
+		margin-top: 20px;
+	}
+
+	.grey_dots_item {
+		width: calc(100% - 15px);
+	}
+
+	.crops_page_country .block_lit_icons_wrp .item {
+		width: calc(100% - 15px);
+	}
+
+	.testimonials_item .person_info {
+		margin-left: 0;
+		left: 10px;
+	}
+
+	.testimonials_item .video_play_btn {
+		width: 42px;
+		margin-left: -21px;
+		height: 42px;
+		margin-top: -21px;
+	}
+
+	.new_s_science .new_s_science_item .col:nth-child(1),
+	.new_s_science .new_s_science_item .col:nth-child(2) {
+		width: 100%;
+		padding: 0;
+	}
+
+	.new_s_science .new_s_science_item .col:nth-child(2) {
+		padding-top: 20px;
+	}
+
+	.s_topl_wrpr {
+		flex-direction: column;
+	}
+
+	.our-farmers.farmers_page .container::before {
+		display: none;
+	}
+
+	.form-country-selector .btn-wrap {
+		display: flex;
+		justify-content: center;
+		max-width: 140px;
+	}
+
+	.form-country-selector .btn-wrap .btn {
+		width: initial;
+		padding: 14px 35px 15px;
+	}
+
+	.s-single-work h4 br {
+		display: none;
+	}
+
+	.green_crops_tile_item {
+		width: calc(50% - 15px);
+	}
+
+	.footer_form_s .wrpr .left,
+	.footer_form_s .wrpr .right {
+		width: 100%;
+	}
+
+	.crops_country_slider_b .featured_varieties_slider {
+		width: 50%;
+	}
+
+	.selector_map {
+		margin-top: 20px;
+	}
+
+	.crops_popup .crops_country_slider_b .featured_varieties_slider {
+		overflow: hidden;
+	}
+
+	.crops_popup {
+		max-width: 400px;
+	}
+
+	.crop_demonstration .top-title-panel {
+		padding-top: 0;
+	}
+
+	.footer_nav {
+		flex-wrap: wrap;
+	}
+
+	.footer_nav ul {
+		padding-left: 0;
+		width: 33.33%;
+	}
+
+	.reg_cols .col {
+		width: 100%;
+	}
+
+	.reg_cols .col:nth-child(1),
+	.reg_cols .col:nth-child(2) {
+		border: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media(max-width: 576px) {
+	.about-item {
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.about-items {
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.footer_links li {
+		display: block;
+		margin: 10px 0;
+	}
+
+	.main-header {
+		height: 59.4px;
+		display: flex;
+		align-items: center;
+	}
+
+	.btn_open_mobile_dropdown {
+		overflow: hidden;
+	}
+
+	.btn_open_mobile_dropdown.active span:nth-child(1) {
+		transform: rotate(-45deg) translate3d(-5px, 8px, 10px);
+	}
+
+	.btn_open_mobile_dropdown.active span:nth-child(3) {
+		transform: rotate(45deg) translate3d(-4px, -8px, 10px);
+	}
+
+	.three_inputs_form .col:nth-child(1),
+	.three_inputs_form .col:nth-child(2),
+	.three_inputs_form .col:nth-child(3) {
+		width: 100%;
+		padding: 0;
+		margin: 5px 0;
+	}
+
+	.three_inputs_form .col:nth-child(3) {
+		margin-top: 30px;
+	}
+
+	.top_section_screen .blur_block,
+	.top_section_screen.become_distr_man_bg .blur_block {
+		padding: 20px;
+	}
+
+	.btn_open_mobile_dropdown:not(.active):hover span:nth-child(1),
+	.btn_open_mobile_dropdown:not(.active):hover span:nth-child(2),
+	.btn_open_mobile_dropdown:not(.active):hover span:nth-child(3) {
+		opacity: 1;
+		transform: initial;
+	}
+
+	.crops_tile_item {
+		width: calc(100% - 15px);
+	}
+
+	.subscribe_newsletter_form {
+		padding: 30px 20px;
+	}
+
+	.subscribe_newsletter_form h3 {
+		line-height: initial;
+	}
+
+	.btn_white_bordr {
+		padding: 13px 10px;
+	}
+
+	.featured_varieties_slider .item .img_wrpr {
+		height: 210px;
+	}
+
+	.work-item {
+		width: calc(100% - 15px);
+	}
+
+	.text-box-with-img .img-wrap,
+	.text-box-with-img .text {
+		width: 100%;
+		margin: 10px 0;
+	}
+
+	.subscribe-form-wrap form {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.subscribe-form-wrap .form-group {
+		max-width: 100%;
+		margin: 0;
+		margin-bottom: 20px;
+	}
+
+	.testimonials_item .person_info .name,
+	.testimonials_item .person_info .country {
+		font-size: 14px;
+	}
+
+	.testimonials_item .person_info {
+		padding: 8px 10px 11px 10px;
+		bottom: 5px;
+	}
+
+	.map_location_list li a span {
+		display: block;
+		margin-left: 0;
+	}
+
+	.peoples_wrp .item {
+		width: calc(100% - 15px);
+	}
+
+	.blur_block_bg_block {
+		margin: 0;
+	}
+
+	.bottom_footer_block {
+		flex-direction: column;
+	}
+
+	footer .copyr {
+		display: block;
+		margin-top: 20px;
+	}
+
+	.block_lit_icons_wrp.icon_left .item {
+		display: block;
+	}
+
+	.block_lit_icons_wrp.icon_left .item .text {
+		padding-left: 0;
+		margin-top: 20px;
+	}
+
+	.green_crops_tile_item {
+		width: calc(100% - 15px);
+	}
+
+	.green_crops_tile_item .content {
+		top: auto;
+		bottom: 0;
+		height: initial;
+	}
+
+	.green_crops_tile_item .triangle {
+		display: none;
+	}
+
+	.crops_country_slider_b .featured_varieties_slider {
+		width: 100%;
+	}
+
+	.country_contacts_wrpr ul {
+		display: block;
+		padding: 10px;
+	}
+
+	.country_contacts_wrpr ul li:nth-child(1),
+	.country_contacts_wrpr ul li {
+		margin: 10px 0;
+	}
+
+	.top_section_screen.crops_country_p .blur_block p {
+		margin-right: 45px;
+	}
+
+	.new_s_science::before {
+		display: none;
+	}
+
+	.new_s_science::after {
+		display: none;
+	}
+
+	.selector_map {
+		display: none;
+	}
+
+	.footer_form_s .sbmt_btn {
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	.country_contacts {
+		padding-top: 0px;
+	}
+
+	.green_line_s .container {
+		flex-direction: column;
+	}
+
+	.green_line_s h3 {
+		margin-bottom: 20px;
+	}
+
+	.main-header.main_user_header .header-logo img {
+		max-width: 110px;
+	}
+
+	.header_user a.profile_link {
+		display: none;
+	}
+
+	.main-header .header-left {
+		max-width: 110px;
+	}
+
+	.main_user_header .search-box {
+		right: 98px;
+	}
+
+	.main_user_header .search-box.active {
+		width: 288px;
+	}
+}
+
+@media(max-width: 400px) {
+	.blur-block h3 {
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.home-slider .slide-item {
+		padding-top: 50px;
+	}
+
+	.blur-block .btn-wrap .btn {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.home-slider .blur-block .btn-group {
+		justify-content: center;
+	}
+
+	.footer_soc_links li {
+		margin: 0 10px;
+	}
+
+	.home-slider .blur-block {
+		padding: 20px;
+	}
+
+	.search-box.active {
+		width: 290px;
+	}
+
+	.about_us_list li {
+		font-size: 14px;
+	}
+
+	.subscribe_newsletter_form .col_wrp .col:nth-child(1),
+	.subscribe_newsletter_form .col_wrp .col:nth-child(2) {
+		width: 100%;
+		padding: 0;
+	}
+
+	.subscribe_newsletter_form .col_wrp .col:nth-child(1) {
+		margin-bottom: 10px;
+	}
+
+	.featured_varieties_slider .item .img_wrpr {
+		height: 160px;
+	}
+
+	.see_all_variet {
+		padding: 20px;
+	}
+
+	.see_all_variet h3 {
+		font-size: 20px;
+	}
+
+	.featured_varieties_slider .featured_varieties_name {
+		right: 8px;
+		bottom: 17px;
+	}
+
+	.subscribe-form-wrap {
+		padding: 20px;
+	}
+
+	.card-box .text-box {
+		padding: 20px;
+	}
+
+	.featured_varieties_slider .featured_varieties_name {
+		padding: 14px 10px 16px 10px;
+		font-size: 12px;
+	}
+
+	.btn_white_bordr {
+		padding: 12px 7px;
+		font-size: 12px;
+	}
+
+	.other_crops_slider_arrows {
+		top: -35px;
+	}
+
+	.s-crops .s_top_l_text {
+		margin-bottom: 37px;
+	}
+
+	.s-top-simple .simple-blur-box {
+		max-width: 100%;
+	}
+
+	.country_contacts_wrpr h3 {
+		font-size: 15px;
+	}
+
+	.crops_popup {
+		padding: 15px;
+	}
+
+	.crops_popup {
+		max-width: 350px;
+	}
+
+	.green_line_s h3 {
+		font-size: 18px;
+	}
+
+	.footer_nav ul {
+		width: 50%;
+	}
+
+	.footer_nav {
+		justify-content: flex-end;
+	}
+
+	.main_user_header .search-box.active {
+		width: 260px;
+		right: 38px;
+	}
+}
+
+@media(max-width: 375px) {
+	.language-select-box {
+		margin: 0 5px 0 5px;
+	}
+
+	.header-country-name {
+		margin-left: 10px;
+		font-size: 14px;
+	}
+
+	.footer_form_s .contact_info li a {
+		font-size: 13px;
+	}
+
+	.footer_form_s .w_title {
+		margin-bottom: 0;
+		font-size: 20px;
+	}
+
+	.subscribe-form-wrap h4 {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+
+	.crops_popup {
+		max-width: 300px;
+	}
+}
+
+@media(max-width: 1199px){
+	.card-inputs .form-group:nth-child(2), .card-inputs .form-group:nth-child(3){
+		width: calc(50% - 10px);
+	}
+	.card-inputs .form-group:nth-child(1){
+		width: 100%;
+	}
+}
+
+@media(max-width: 991px){
+	.checkout-wrap .left{
+		width: 100%;
+		border-right: none;
+	}
+	.checkout-wrap .right{
+		width: 100%;
+	}
+	.ckeckout-payment{
+		border-bottom: 1px solid #F5F5F5;
+	}
+	.form-group-col-2 .form-group{
+		width: 100%;
+	}
+	.top-title-panel.top-title-center .btn-wrap{
+		position: relative;
+		bottom: 0;
+		left: 0;
+		margin: 10px auto 0;
+	}
+	.disclaimer-box{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		padding: 50px 15px 25px 15px;
+	}
+	.disclaimer-box .left{
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+	.disclaimer-box .close-btn{
+		right: 15px;
+		top: 15px;
+	}
+	.shopping-cart-table .table-body{
+		overflow: auto;
+	}
+	.shopping-cart-table table{
+		width: 720px;
+	}
+	.shopping-cart-table.empty table{
+		width: 100%;
+	}
+	.shopping-cart-empty{
+		padding: 30px 0 50px;
+	}
+}
+
+@media(max-width: 767px){
+	.about_us {
+		padding-bottom: 90px;
+	}
+	.about_us .block_two_col{
+		padding-bottom: 0;
+	}
+	.about_us .bg_item {
+		width: 100%;
+		left: 0;
+	}
+	.about_us .other_crops_slider_arrows{
+		display: none;
+	}
+	.product-popup .left-side, .product-popup .right-side{
+		width: 100%;
+	}
+	.product-popup .left-side{
+		margin-bottom: 30px;
+	}
+	.product-popup{
+		padding: 41px 34px 30px 34px;
+	}
+	.c-item-details{
+		position: relative;
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.c-item-details .c-left, .c-item-details .c-right{
+		width: 100%;
+	}
+	.big-img-wrap{
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+	}
+	.c-text-descr{
+		border-radius: 0;
+	}
+	.c-item-details .c-left-items > span, .c-item-details .c-left .date{
+		color: #5B5B5B;
+	}
+
+	.c-item-details .c-left-items > span svg path{
+		fill: #5B5B5B;
+	}
+	.c-text-descr{
+		padding-top: 0;
+	}
+	.shopping-cart-table .table-footer{
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.shopping-cart-table .table-footer .total-price{
+		margin-bottom: 20px;
+	}
+}
+
+@media(max-width: 576px){
+	.product-popup{
+		padding: 41px 15px 30px 15px;
+	}
+	.checkout-wrap .form-group{
+		margin-bottom: 20px;
+	}
+	.ckeckout-total-order{
+		padding: 30px 37px 10px 35px;
+	}
+	.ckeckout-total-price{
+		padding: 20px 37px;
+	}
+}
+
+@media(max-width: 400px){
+	.card-inputs .form-group:nth-child(2), .card-inputs .form-group:nth-child(3){
+		width: 100%;
+	}
+}
